@@ -185,6 +185,119 @@ Beispiel:
 >
 > :heavy_check_mark:: Berechnet den Arcustangens von x
 
+## Glossar-Regeln
+
+Das Weblate-Glossar folgt bestimmten eigenen Regeln, die beachtet werden 
+sollten:
+
+### Was kommt überhaupt ins Glossar?
+
+Das Glossar hat seinen praktischen Nutzen dort, wo man ein Wort an 
+verschiedenen Stellen gleich übersetzen möchte. Immer, wenn das 
+gewährleistet werden soll, lohnt sich auch ein Glossar-Eintrag. Beachte 
+allerdings auch, dass ein sehr großes Glossar Pflegeaufwand bedeutet. Nicht 
+jedes Wort muss also unbedingt einen Eintrag bekommen.
+
+Beispiele:
+> :x:: color -> Farbe
+> 
+> :x:: feature -> Eigenschaft, Merkmal, Feature
+
+Das Wort "color" ist ziemlich eindeutig und bedarf vermutlich keiner 
+expliziten Klärung in einem Glossar. 
+
+Das Wort "feature" hingegen lässt sich 
+auf verschiedene Arten übersetzen, aber es bringt hier nicht viel, die 
+Varianten aufzuzählen, wenn nicht gleichzeitig geklärt wird, in welchen 
+Fällen welche Übersetzung die "richtige" ist. Hier wäre vermutlich das 
+Sprachgefühl der Übersetzer der bessere Ratgeber als ein penibler 
+Glossar-Eintrag.
+
+Beispiele:
+
+> :heavy_check_mark:: ctrl -> Strg
+> 
+> :heavy_check_mark:: aligned -> bündig/ausgerichet
+> 
+> :heavy_check_mark:: blitting -> Blitting
+
+Im ersten Beispiel haben wir einen Fachbegriff, der über ein eindeutiges 
+deutsches Äquivalent verfügt. Hier kann man durch eine "Forbidden 
+Translation" (s.u.) außerdem darauf hinweisen, dass eine Übersetzung als das 
+naheliegende "Ctrl" nicht zulässig ist.
+
+Im zweiten Beispiel kann das Glossar dabei helfen, die verschiedenen 
+Übersetzungen des Wortes "aligned" zu definieren, das in der Form 
+*left-aligned* als *linksbündig* und in der Form *axis-aligned* als *an den 
+Achsen ausgerichtet* übersetzt werden sollte.
+
+Im dritten Beispiel kann das Glossar darauf hinweisen, dass ein Begriff ein 
+feststehender Fachbegriff ist, der im Deutschen keine deutsche Entsprechung 
+hat und daher englisch bleibt.
+
+### Ein Wort, ein Eintrag
+
+Da Weblate Glossar-Einträge bei der Übersetzung automatisch anzeigt, sollte 
+sichergestellt werden, dass Einträge auch gefunden werden. Das kann nur 
+gelingen, wenn ein Eintrag in der englischen Form genau so auch in einem 
+Text vorkommen kann.
+
+Beispiel:
+> :x:: float, floats
+>
+> :heavy_check_mark:: float
+
+Im vorigen Beispiel könnte Weblate den Glossareintrag zum Wort *float* nicht 
+finden, da im Original-Begriff mehr als ein Wort vorkommt und diese 
+Kombination in dieser Form nicht in einem Originaltext vorkommen wird.
+
+### Ein Wort, mehrere Bedeutungen
+
+Sollte ein englisches Wort auf mehrere Arten übersetzt werden können, dann 
+sollte für jede Übersetzung ein eigener Glossar-Eintrag angelegt werden. 
+Dies hilft bei der Lesbarkeit und macht es später leichter, weitere Bedeutungen 
+hinzuzufügen.
+
+Beispiel:
+> :x:: Volumen, Lautstärke
+>
+> :heavy_check_mark:: Volumen (*Explanation:* im Sinne von "Rauminhalt")
+> 
+> :heavy_check_mark:: Lautstärke (*Explanation:* im Audio-Kontext)
+
+Es bietet sich an, über das jeweilige Explanation-Feld zu beschreiben, wie sich 
+die verschiedenen Übersetzungen unterscheiden und in welchen Fällen man sie 
+verwenden sollte.
+
+### Terminology
+
+Ein als "Terminology" markierter Eintrag taucht automatisch bei allen 
+anderen Sprachen als zu übersetzender Begriff auf und führt dort zu offenen 
+Arbeitspunkten. Achte also darauf, dass ein Hinzufügen des Terminology-Flags 
+auch Auswirkungen auf Übersetzer aus anderen Sprachen haben kann. Im Zweifel 
+sollte das Flag lieber nicht verwendet werden, es sei denn es handelt sich 
+um wirklich feststehende Begriffe.
+
+Generell sollten Dispute um Terminology-Flags über die Godot-Maintainer 
+beigelegt werden, da es hier um sprachübergreifende Themen geht.
+
+### Untranslatable
+
+Ein als "Untranslatable" markierter Eintrag ist ein Begriff, der bewusst nicht 
+übersetzt werden soll. Hier sollte das Feld für den Übersetzungstext leer 
+gelassen werden. Man kann einen als *untranslatable* markierten Begriff daran 
+erkennen, dass sie bei der Glossar-Einblendung gelb hinterlegt sind
+
+### Forbidden Translation
+
+Ein als "Forbidden Tranlsation" markierter Eintrag kann dazu verwendet 
+werden, um eine Übersetzung aufzuzeigen, die nicht verwendet werden soll, zum 
+Beispiel weil sie einen fehleranfälligen 
+[Falschen Freund](https://de.wikipedia.org/wiki/Falscher_Freund) darstellt 
+oder um bestimmte deutsche Begriffe zu sperren. Zum Beispiel könnte man sich 
+darauf einigen, den Begriff *enemy* durchgängig als *Gegner* nicht als das 
+extremere *Feind* zu übersetzen.
+
 ## Recherchetipps
 
 Insbesondere Fachbegriffe aus dem mathematischen und physikalischen Bereich

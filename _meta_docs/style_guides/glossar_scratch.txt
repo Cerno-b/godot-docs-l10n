@@ -1,0 +1,58 @@
+p1 
+Englisch?	ambient occlusion	-	Umgebungsverdeckung
+raus?	annotation - Annotation
+Englisch?	asset - Asset
+Varianten?	authority - Autorität
+
+p2
+change? Autoload - automatisches Laden -> Auto-Laden?
+raus? 	avoidance - Vermeidung
+? 	bake - backen -> backen/baken?
+raus?	bar - Leiste (oder mehr davon?)
+Englisch/change?	billboard - Plakatwand -> Leinwand?
+? Blend Shape - Formmischung
+Englisch? bone - Knochen (gängige Praxis?)
+raus? bounds - Grenzen
+
+p3
+change?	Caret - Einfügemarke -> Textcursor? (Cursor -> Mauszeiger)
+?	child - ? Unterobjekt -> untergeordnetes Element (parent = übergeordnetes Element), oder einfach englisch lassen?
+?	clip - Clip/Ausschnitt -> mehr Recherche (siehe clipping bias, clip space)
+raus?	color - Farbe
+global raus? Constants - Konstanten
+
+p4
+global raus? Constructors - Konstruktoren
+raus? creep - Gegner
+Englisch? 	Cull - Aushöhlung -> Cull?
+Englisch?	Cull Mask - Aushöhlungsblende -> Cull-Maske 
+Englisch?	Default - Standard -> Default?
+global raus?	Defaults - Standards
+change?	deploy - aufspielen -> ausliefern?
+raus? Description - Beschreibeung
+
+p5
+Englisch? dictionary - Wörterbuch -> Dictionary als Datentyp
+raus? Dictionary - Dictionary -> Raus wenn Wörterbuch zu Dictionary wird
+raus? don't - 
+Englisch?	downsampling - Heruntertaktung -> Downsampling oder Unterabtasten
+Englisch? Drag and Drop - Ziehen und ablegen -> Englisch ja, aber wie im Satz behandeln? "drag the element and drop it here"?
+? drag margin - siehe Entscheidung drag and drop
+? Drive	- Fahren -> viele mögliche Bedeutungen (raus oder besser recherchieren)`
+Englisch? Drop Down Menu - Aufklappmenü -> Besser Drop-Down-Menü?
+raus?	edit - bearbeiten
+?	emit - senden (im Kontext von Signalen: doch besser emittieren weil leichter abgrenzbar?)
+raus? 	enemy - Gegner (Raus oder klären, dass Gegner und nicht Feind verwendet werden soll)
+?	Eng - Eng (was ist das?)
+
+p6
+? enumerated - enumeriert -> genereller Umgang damit: Datentyp gegen allgmeiner Begriff. Datentyp: Enum oder Enumeration oder Aufzählung?
+? Enumeration - Aufzählung
+global raus? estimate - schätzen
+global raus? Experimental - Experimentell
+global raus? Export template - Exportvorlage -> einzelwörter reichen?
+raus?	feature - Eigenschaft, Merkmal -> dazu kommt Feature. Brauchen wir wirklich eine einheitliche Übersetzung?
+englisch falsch?	FileSystem - Dateisystem (sollte auf englisch File System heißen)
+raus?	Flat 1 - Ebene 1 (wat?)
+global raus?	Float - Float (Abgrenzung zu float, floats)?
+change?	float - Fließkommazahl -> Besser Gleitkommazahl, oder sogar float lassen?
