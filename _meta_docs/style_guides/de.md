@@ -269,6 +269,25 @@ Es bietet sich an, über das jeweilige Explanation-Feld zu beschreiben, wie sich
 die verschiedenen Übersetzungen unterscheiden und in welchen Fällen man sie 
 verwenden sollte.
 
+### Grundformen verwenden
+
+Ein englisches Wort sollte grundsätzlich in seiner einfachsten Form ins 
+Glossar eingetragen werden, damit es in möglichst vielen Fällen automatisch 
+zugeordnet werden kann. Das bedeutet bei Verben die Grundform (ohne *to*) 
+und bei Substantiven der Singular. Gleichzeitig sollte vermieden werden zwei 
+Einträge jeweils für Singular und Plural anzulegen.
+
+Beispiel 1:
+> :x:: to hide -> verbergen
+> 
+> :heavy_check_mark:: hide -> verbergen
+
+Beispiel 2:
+> :x:: constants -> Konstanten
+> 
+> :heavy_check_mark:: constant -> Konstante
+
+
 ### Terminology
 
 Ein als "Terminology" markierter Eintrag taucht automatisch bei allen 
