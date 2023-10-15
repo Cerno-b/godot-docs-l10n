@@ -305,11 +305,11 @@ beigelegt werden, da es hier um sprachübergreifende Themen geht.
 Ein als "Untranslatable" markierter Eintrag ist ein Begriff, der bewusst nicht 
 übersetzt werden soll. Hier sollte das Feld für den Übersetzungstext leer 
 gelassen werden. Man kann einen als *untranslatable* markierten Begriff daran 
-erkennen, dass sie bei der Glossar-Einblendung gelb hinterlegt sind
+erkennen, dass er bei der Glossar-Einblendung gelb hinterlegt ist.
 
 ### Forbidden Translation
 
-Ein als "Forbidden Tranlsation" markierter Eintrag kann dazu verwendet 
+Ein als "Forbidden Translation" markierter Eintrag kann dazu verwendet 
 werden, um eine Übersetzung aufzuzeigen, die nicht verwendet werden soll, zum 
 Beispiel weil sie einen fehleranfälligen 
 [Falschen Freund](https://de.wikipedia.org/wiki/Falscher_Freund) darstellt 
