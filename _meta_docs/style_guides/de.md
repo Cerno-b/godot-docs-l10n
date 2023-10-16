@@ -274,7 +274,7 @@ verwenden sollte.
 Ein englisches Wort sollte grundsätzlich in seiner einfachsten Form ins 
 Glossar eingetragen werden, damit es in möglichst vielen Fällen automatisch 
 zugeordnet werden kann. Das bedeutet bei Verben die Grundform (ohne *to*) 
-und bei Substantiven der Singular. Gleichzeitig sollte vermieden werden zwei 
+und bei Substantiven der Singular. Gleichzeitig sollte vermieden werden, zwei 
 Einträge jeweils für Singular und Plural anzulegen.
 
 Beispiel 1:
@@ -294,7 +294,7 @@ Ein als "Terminology" markierter Eintrag taucht automatisch bei allen
 anderen Sprachen als zu übersetzender Begriff auf und führt dort zu offenen 
 Arbeitspunkten. Achte also darauf, dass ein Hinzufügen des Terminology-Flags 
 auch Auswirkungen auf Übersetzer aus anderen Sprachen haben kann. Im Zweifel 
-sollte das Flag lieber nicht verwendet werden, es sei denn es handelt sich 
+sollte das Flag lieber nicht verwendet werden, es sei denn, es handelt sich 
 um wirklich feststehende Begriffe.
 
 Generell sollten Dispute um Terminology-Flags über die Godot-Maintainer 
@@ -312,9 +312,9 @@ erkennen, dass er bei der Glossar-Einblendung gelb hinterlegt ist.
 Ein als "Forbidden Translation" markierter Eintrag kann dazu verwendet 
 werden, um eine Übersetzung aufzuzeigen, die nicht verwendet werden soll, zum 
 Beispiel weil sie einen fehleranfälligen 
-[Falschen Freund](https://de.wikipedia.org/wiki/Falscher_Freund) darstellt 
+[falschen Freund](https://de.wikipedia.org/wiki/Falscher_Freund) darstellt 
 oder um bestimmte deutsche Begriffe zu sperren. Zum Beispiel könnte man sich 
-darauf einigen, den Begriff *enemy* durchgängig als *Gegner* nicht als das 
+darauf einigen, den Begriff *enemy* durchgängig als *Gegner*, nicht als das 
 extremere *Feind* zu übersetzen.
 
 ## Recherchetipps
