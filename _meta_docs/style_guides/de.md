@@ -328,7 +328,7 @@ der Übersetzung eines Fachbegriffs gut überlegen, ob man eine korrekte
 einmal etwas näher recherchieren sollte.
 
 Grundbegriffe aus der
-Wissenschaft kann man auf der englischen [Wikipedia](www.wikipedia.org)
+Wissenschaft kann man auf der englischen [Wikipedia](https://en.wikipedia.org/)
 nachschlagen.
 Von dort aus lässt sich über das Sprachmenü der deutsche
 Schwesterartikel aufrufen, wo man oft eine korrekte deutsche Übersetzung des
@@ -336,7 +336,7 @@ Begriffs findet. Achte allerdings darauf, ob der deutsche Artikel auch
 dieselbe Bedeutung des Wortes beschreibt wie der englische Artikel.
 
 Bei weiteren allgemeinen technischen Begriffen kann
-man auf Webseiten wie www.linguee.com zurückgreifen, um zu schauen, wie oft
+man auf Webseiten wie [Linguee](https://www.linguee.com/) zurückgreifen, um zu schauen, wie oft
 ein Begriff von anderen Übersetzern in unterschiedlichen Kontexten bereits
 übersetzt wurde.
 
@@ -348,7 +348,7 @@ nachzuschauen, wie andere Tools aus dem Bereich diese Begriffe übersetzen
 spezifische Fachbegriffe.
 
 Zuletzt ist es für Texte der Dokumentation oft nicht verkehrt, sich das
-Original zunächst von dem sehr guten Übersetzungsdienst www.deepl.com
+Original zunächst von dem sehr guten Übersetzungsdienst [DeepL](https://www.deepl.com/)
 vorübersetzen zu lassen. Achte darauf, dass diese Übersetzung nicht
 immer perfekt ist, und betrachte sie mehr als eine Rohübersetzung,
 die nochmal überarbeitet werden muss.
