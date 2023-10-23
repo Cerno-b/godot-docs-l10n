@@ -276,15 +276,6 @@ Glossar eingetragen werden, damit es in möglichst vielen Fällen automatisch
 zugeordnet werden kann. Das bedeutet bei Verben die Grundform (**wichtig:** ohne *to*) 
 und bei Substantiven der Singular.
 
-> [!NOTE]  
-> Leider unterstützt die aktuelle Version von Weblate keine 
-> morphologischen Varianten. Wenn also ein Wort im Glossar als Singular angegeben wird, dann
-> wird es beim Übersetzen nur angeboten, wenn auch im Übersetzungstext der Singular 
-> verwendet wird. Es gibt bereits ein [Ticket](https://github.com/WeblateOrg/weblate/issues/3023)
-> dazu im Weblate-Github. Bis zur Lösung dieses Problems sollten wir vermeiden, 
-> als Workaround Singular *und* Plural-Einträge im Glossar zu erzeugen, da das
-> schlecht zu warten ist.
-
 Beispiel 1:
 > :x:: to hide -> verbergen
 > 
@@ -295,6 +286,14 @@ Beispiel 2:
 > 
 > :heavy_check_mark:: constant -> Konstante
 
+> [!NOTE]  
+> Leider unterstützt die aktuelle Version von Weblate keine 
+> morphologischen Varianten. Wenn also ein Wort im Glossar als Singular angegeben wird, dann
+> wird es beim Übersetzen nur angeboten, wenn auch im Übersetzungstext der Singular 
+> verwendet wird. Es gibt bereits ein [Ticket](https://github.com/WeblateOrg/weblate/issues/3023)
+> dazu im Weblate-Github. Bis zur Lösung dieses Problems sollten wir vermeiden, 
+> als Workaround Singular *und* Plural-Einträge im Glossar zu erzeugen, da das
+> schlecht zu warten ist.
 
 ### Terminology
 
