@@ -37,7 +37,7 @@ p5
 Englisch? dictionary - Wörterbuch -> Dictionary als Datentyp
 raus? Dictionary - Dictionary -> Raus wenn Wörterbuch zu Dictionary wird
 raus? don't - 
-Englisch?	downsampling - Heruntertaktung -> Downsampling oder Unterabtasten
+Englisch?	downsampling - Heruntertaktung -> Downsampling oder Unterabtasten, siehe auch undersampling
 Englisch? Drag and Drop - Ziehen und ablegen -> Englisch ja, aber wie im Satz behandeln? "drag the element and drop it here"?
 ? drag margin - siehe Entscheidung drag and drop
 ? Drive	- Fahren -> viele mögliche Bedeutungen (raus oder besser recherchieren)`
@@ -179,3 +179,23 @@ English? String - Zeichenkette - eher String lassen?
 ? tessellation - Tessellation -> deutscher Begriff?
 ? text span - Textbereich -> vermutlich falsch
 Englisch? text-to-speech -> Englisch lassen? Text-to-Speech
+
+p19
+Englisch? tile - Kachel (auch Tile erlauben?)
+? toggle - umschalten -> besser hin- und herschalten?
+? Track - Spur (im Sinne von Tonspur ja, aber hat mehrere Bedeutungen
+? Trail - Spur (andere Bedeutung als Track) -> ?
+? transform - Transform, Tranformation, Transformierung, Transformationsmatrix? -> Verb vs Substantiv, verschiedene Bedeutungen
+Englisch? Tutorial - Anleitung -> lieber Tutorial lassen?
+uniform - Uniform -> verschiedene Bedeutungen, hier vermutlich nicht "die Uniform"
+
+p20
+? utterance - Äußerung -> Fachbegriff?
+? Variable Rate Shading - Variable Rate Shading -> übersetzen?
+Englisch? - viewport - Ansichtsfenster -> lieber Viewport lassen
+? whitespace - Whitespace -> übersetzen?
+Englisch? widget - Element -> Widget
+? world space - Welt-Raum (siehe andere spaces)
+
+p21
+? yield - yield/Ertrag  -> verschiedene Bedeutungen

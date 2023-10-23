@@ -273,9 +273,16 @@ verwenden sollte.
 
 Ein englisches Wort sollte grundsätzlich in seiner einfachsten Form ins 
 Glossar eingetragen werden, damit es in möglichst vielen Fällen automatisch 
-zugeordnet werden kann. Das bedeutet bei Verben die Grundform (ohne *to*) 
-und bei Substantiven der Singular. Gleichzeitig sollte vermieden werden zwei 
-Einträge jeweils für Singular und Plural anzulegen.
+zugeordnet werden kann. Das bedeutet bei Verben die Grundform (**wichtig:** ohne *to*) 
+und bei Substantiven der Singular.
+
+> [!NOTE]  Leider unterstützt die aktuelle Version von Weblate keine 
+> morphologischen Varianten. Wenn also ein Wort im Glossar als Singular angegeben wird, dann
+> wird es beim Übersetzen nur angeboten, wenn auch im Übersetzungstext der Singular 
+> verwendet wird. Es gibt bereits ein [Ticket](https://github.com/WeblateOrg/weblate/issues/3023)
+> dazu im Weblate-Github. Bis zur Lösung dieses Problems sollten wir vermeiden, 
+> als Workaround Singular *und* Plural-Einträge im Glossar zu erzeugen, da das
+> schlecht zu warten ist.
 
 Beispiel 1:
 > :x:: to hide -> verbergen
@@ -290,15 +297,19 @@ Beispiel 2:
 
 ### Terminology
 
-Ein als &bdquo;Terminology&rdquo; markierter Eintrag taucht automatisch bei allen 
-anderen Sprachen als zu übersetzender Begriff auf und führt dort zu offenen 
-Arbeitspunkten. Achte also darauf, dass ein Hinzufügen des Terminology-Flags 
-auch Auswirkungen auf Übersetzer aus anderen Sprachen haben kann. Im Zweifel 
-sollte das Flag lieber nicht verwendet werden, es sei denn es handelt sich 
-um wirklich feststehende Begriffe.
+Ein als &bdquo;Terminology&rdquo; markierter Eintrag wird automatisch in allen 
+anderen Sprachen in die Glossare eingetragen und führt dort zu offenen 
+Arbeitspaketen. Ein als Terminology markierter Begriff kann aber im einer Sprache
+gelöscht werden, ohne dass er in den anderen Sprachen ebenfalls verschwindet. 
 
-Generell sollten Dispute um Terminology-Flags über die Godot-Maintainer 
-beigelegt werden, da es hier um sprachübergreifende Themen geht.
+Sollte also ein neuer Glossar-Eintrag bei uns erscheinen, weil eine andere Sprache 
+einen Begriff als Terminology deklariert hat, sollten wir entschieden, 
+ob wir diesen Begriff im deutschen Glossar übernehmen oder löschen wollen.
+
+Generell sollten wir das Terminology-Flag lieber nicht setzen, da es potentiell
+die Glossare anderer Sprachen zumüllt, insbesondere, wenn diese andere Definitonen 
+des Terminology-Begriffs haben. 
+
 
 ### Untranslatable
 
