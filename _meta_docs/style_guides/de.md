@@ -25,13 +25,13 @@ Godot-Übersetzung](https://chat.godotengine.org/channel/translation-de) geklär
 
 ### Du oder Sie
 
-Die aktuelle Übersetzung von Godot verwendet "Sie" statt "Du" bei direkter
-Ansprache. Zwar wäre die freundlichere "Du"-Form im Gaming-Bereich ebenfalls
+Die aktuelle Übersetzung von Godot verwendet &bdquo;Sie&rdquo; statt &bdquo;Du&rdquo; bei direkter
+Ansprache. Zwar wäre die freundlichere &bdquo;Du&rdquo;-Form im Gaming-Bereich ebenfalls
 eine gute Wahl, jedoch ist eine Umstellung mit viel Arbeit verbunden.
-Die Diskussion einer Umstellung auf "Du" hängt daher in erster Linie an
+Die Diskussion einer Umstellung auf &bdquo;Du&rdquo; hängt daher in erster Linie an
 der Frage, ob sich eine hinreichend große Menge an Freiwilligen finden,
 um die *gesamte* Übersetzung umzustellen. Bis dahin sollte aus
-praktischen Gründen die Übersetzung beim formelleren "Sie" bleiben.
+praktischen Gründen die Übersetzung beim formelleren &bdquo;Sie&rdquo; bleiben.
 
 Beispiel:
 > **Original:** Press button a
@@ -62,13 +62,13 @@ Beispiel 1:
 Beispiel 2:
 > **Original:** Drag to pan the view
 >
-> :x:: Ziehen um den View zu pannen.
+> :x:: Ziehen, um den View zu pannen.
 >
 > :heavy_check_mark:: Ziehen um den View zu verschieben
 
 
 Das Erste Beispiel stammt aus dem Audio-Bereich, wo Stereo-Panning ein gängiger
-Begriff ist. Das zweite Beispiel verwendet das Wort "panning" als normale
+Begriff ist. Das zweite Beispiel verwendet das Wort &bdquo;panning&rdquo; als normale
 Vokabel in einem allgemeinen Satz. Hier ist kein besonderer technischer Jargon
 gemeint, somit kann das Wort auch normal auf Deutsch übersetzt werden.
 
@@ -131,7 +131,7 @@ Beispiel 2:
 >
 > :heavy_check_mark:: Faktor für Render-Zielgröße
 
-### Schachtelsätze und "die die"-Wiederholungen
+### Schachtelsätze und &bdquo;die die&rdquo;-Wiederholungen
 
 Beim direkten Übersetzen eines englischen Satzes kommt man leicht in
 Versuchung, Schachtelsätze oder allgemein sehr lange Sätze zu bilden. Im
@@ -142,8 +142,8 @@ kann durchaus guter Stil sein, einen Satz in zwei Sätze aufzuteilen, auch wenn
 dabei die grammatikalische Form des Originals nicht erhalten bleibt.
 
 Ein weiterer verwandter Aspekt ist hier die Verwendung der Wortwiederholung
-"die die", die ebenfalls vermieden werden sollte. Eine Ersetzung durch "welche
-die" scheint oft naheliegend, klingt aber umständlich und ist keine gute Lösung.
+&bdquo;die die&rdquo;, die ebenfalls vermieden werden sollte. Eine Ersetzung durch &bdquo;welche
+die&rdquo; scheint oft naheliegend, klingt aber umständlich und ist keine gute Lösung.
 Stattdessen ist eine Umformulierung des Satzes oft die bessere Wahl.
 
 Beispiel 1:
@@ -203,13 +203,13 @@ Beispiele:
 > 
 > :x:: feature -> Eigenschaft, Merkmal, Feature
 
-Das Wort "color" ist ziemlich eindeutig und bedarf vermutlich keiner 
+Das Wort &bdquo;color&rdquo; ist ziemlich eindeutig und bedarf vermutlich keiner 
 expliziten Klärung in einem Glossar. 
 
-Das Wort "feature" hingegen lässt sich 
+Das Wort &bdquo;feature&rdquo; hingegen lässt sich 
 auf verschiedene Arten übersetzen, aber es bringt hier nicht viel, die 
 Varianten aufzuzählen, wenn nicht gleichzeitig geklärt wird, in welchen 
-Fällen welche Übersetzung die "richtige" ist. Hier wäre vermutlich das 
+Fällen welche Übersetzung die &bdquo;richtige&rdquo; ist. Hier wäre vermutlich das 
 Sprachgefühl der Übersetzer der bessere Ratgeber als ein penibler 
 Glossar-Eintrag.
 
@@ -222,12 +222,12 @@ Beispiele:
 > :heavy_check_mark:: blitting -> Blitting
 
 Im ersten Beispiel haben wir einen Fachbegriff, der über ein eindeutiges 
-deutsches Äquivalent verfügt. Hier kann man durch eine "Forbidden 
-Translation" (s.u.) außerdem darauf hinweisen, dass eine Übersetzung als das 
-naheliegende "Ctrl" nicht zulässig ist.
+deutsches Äquivalent verfügt. Hier kann man durch eine &bdquo;Forbidden 
+Translation&rdquo; (s.u.) außerdem darauf hinweisen, dass eine Übersetzung als das 
+naheliegende &bdquo;Ctrl&rdquo; nicht zulässig ist.
 
 Im zweiten Beispiel kann das Glossar dabei helfen, die verschiedenen 
-Übersetzungen des Wortes "aligned" zu definieren, das in der Form 
+Übersetzungen des Wortes &bdquo;aligned&rdquo; zu definieren, das in der Form 
 *left-aligned* als *linksbündig* und in der Form *axis-aligned* als *an den 
 Achsen ausgerichtet* übersetzt werden sollte.
 
@@ -261,7 +261,7 @@ hinzuzufügen.
 Beispiel:
 > :x:: Volumen, Lautstärke
 >
-> :heavy_check_mark:: Volumen (*Explanation:* im Sinne von "Rauminhalt")
+> :heavy_check_mark:: Volumen (*Explanation:* im Sinne von &bdquo;Rauminhalt&rdquo;)
 > 
 > :heavy_check_mark:: Lautstärke (*Explanation:* im Audio-Kontext)
 
@@ -290,7 +290,7 @@ Beispiel 2:
 
 ### Terminology
 
-Ein als "Terminology" markierter Eintrag taucht automatisch bei allen 
+Ein als &bdquo;Terminology&rdquo; markierter Eintrag taucht automatisch bei allen 
 anderen Sprachen als zu übersetzender Begriff auf und führt dort zu offenen 
 Arbeitspunkten. Achte also darauf, dass ein Hinzufügen des Terminology-Flags 
 auch Auswirkungen auf Übersetzer aus anderen Sprachen haben kann. Im Zweifel 
@@ -302,14 +302,14 @@ beigelegt werden, da es hier um sprachübergreifende Themen geht.
 
 ### Untranslatable
 
-Ein als "Untranslatable" markierter Eintrag ist ein Begriff, der bewusst nicht 
+Ein als &bdquo;Untranslatable&rdquo; markierter Eintrag ist ein Begriff, der bewusst nicht 
 übersetzt werden soll. Hier sollte das Feld für den Übersetzungstext leer 
 gelassen werden. Man kann einen als *untranslatable* markierten Begriff daran 
 erkennen, dass er bei der Glossar-Einblendung gelb hinterlegt ist.
 
 ### Forbidden Translation
 
-Ein als "Forbidden Translation" markierter Eintrag kann dazu verwendet 
+Ein als &bdquo;Forbidden Translation&rdquo; markierter Eintrag kann dazu verwendet 
 werden, um eine Übersetzung aufzuzeigen, die nicht verwendet werden soll, zum 
 Beispiel weil sie einen fehleranfälligen 
 [Falschen Freund](https://de.wikipedia.org/wiki/Falscher_Freund) darstellt 
@@ -328,7 +328,7 @@ der Übersetzung eines Fachbegriffs gut überlegen, ob man eine korrekte
 einmal etwas näher recherchieren sollte.
 
 Grundbegriffe aus der
-Wissenschaft kann man auf der englischen [Wikipedia](www.wikipedia.org)
+Wissenschaft kann man auf der englischen [Wikipedia](https://www.wikipedia.org)
 nachschlagen.
 Von dort aus lässt sich über das Sprachmenü der deutsche
 Schwesterartikel aufrufen, wo man oft eine korrekte deutsche Übersetzung des
@@ -352,3 +352,10 @@ Original zunächst von dem sehr guten Übersetzungsdienst www.deepl.com
 vorübersetzen zu lassen. Achte darauf, dass diese Übersetzung nicht
 immer perfekt ist, und betrachte sie mehr als eine Rohübersetzung,
 die nochmal überarbeitet werden muss.
+
+## Testen der Übersetzung
+
+Für Übersetzungen des *Editors* und der *Properties* ist es ratsam, diese 
+auch selbst zu testen, indem 
+man [die aktuelle Übersetzung herunterlädt](https://docs.godotengine.org/de/4.x/contributing/documentation/editor_and_docs_localization.html#offline-translation-and-testing) 
+und Godot mit den Änderungen [selbst kompiliert](https://docs.godotengine.org/de/4.x/contributing/development/compiling/compiling_for_windows.html).
