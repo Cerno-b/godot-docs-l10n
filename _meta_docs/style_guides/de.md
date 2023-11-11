@@ -18,7 +18,7 @@ Weblate verfügt über ein Glossar, in dem häufig verwendete Begriffe gelistet
 werden, damit sie einheitlich übersetzt werden können. In diesem Dokument
 wird daher darauf verzichtet, die Übersetzung einzelner Begriffe zu
 klären. Sollte es bei der Übersetzung eines Begriffs Uneinigkeit geben,
-so sollte dies zunächst im  [Chatraum für die deutsche
+so sollte dies zunächst im [Chatraum für die deutsche
 Godot-Übersetzung](https://chat.godotengine.org/channel/translation-de) diskutiert und dann ins Glossar eingetragen werden.
 
 ## Technische Hilfsmittel
@@ -78,7 +78,7 @@ ausgelegt ist und sich angenehm lesen soll, ist im Editor und den Properties
 häufig eine etwas knappere Sprache erforderlich, weil oft nur begrenzt
 Platz für die Texte zur Verfügung steht.
 
-Es ist daher sinnvoll, grammatikalische Grundregeln für die Übersetzung 
+Es ist daher sinnvoll, einige Grundregeln für die Übersetzung 
 aufzustellen. Beachte, dass diese Regeln nicht absolut sind und im Zweifel 
 mit Augenmaß übersetzt werden sollte. Trotzdem helfen solche Regeln, 
 einen einheitlichen Sprachstil über die gesamte Dokumentation hinweg zu fördern.
@@ -88,10 +88,12 @@ Folgende Grundregeln werden aktuell in der Übersetzung angewendet:
 #### Anleitung/Klassenreferenz
 
 In der Anleitung sollte die grammatikalische Form des Originaltexts beibehalten
-werden, es sei denn die Lesbarkeit leidet darunter. Es sollte darauf verzichtet
-werden, auf Zwang bestimmte Sprachkonstrukte, wie Passiv zu verwenden, wenn 
-der Originaltext dies nicht auch tut. Insbesondere die direkte Ansprache mit 
-"Sie" ist in diesem Teil der Dokumentation weit verbreitet.
+werden, es sei denn, die Lesbarkeit leidet darunter. Es sollte generell darauf 
+verzichtet werden, an dieser Stelle bestimmte Sprachkonstrukte grundsätzlich
+zu vermeiden oder zu bevorzugen. Oft ist eine Anlehnung an den Originaltext
+die bessere Wahl. Insbesondere die direkte Ansprache mit 
+&bdquo;Sie&rdquo; ist in diesem Teil der Dokumentation weit verbreitet und sollte
+so beibehalten werden.
 
 Beispiele:
 > **Original:** The table of contents in the sidebar should let you easily 
