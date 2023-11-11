@@ -101,12 +101,16 @@ Beispiele:
 > 
 > :heavy_check_mark: Mithilfe des Inhaltsverzeichnisses in der Seitenleiste 
 > können Sie leicht auf die Dokumentation zu Ihrem gewünschten Thema zugreifen. 
-  
+
+<br/><br/>
+
 > :arrow_forward:  To move our icon, we need to update its position and rotation 
 > every frame in the game loop.
 > 
 > :heavy_check_mark: Um unser Icon zu bewegen, müssen wir seine Position und 
 > Drehung in jedem Frame der Spielschleife aktualisieren. 
+
+<br/><br/>
   
 > :arrow_forward: This build can be manually triggered by clicking the "Build" 
 > button at the top right of the editor.
