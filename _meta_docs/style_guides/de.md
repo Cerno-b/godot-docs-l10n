@@ -60,8 +60,6 @@ der Frage, ob sich eine hinreichend große Menge an Freiwilligen finden,
 um die *gesamte* Anleitung umzustellen. Bis dahin sollte aus
 praktischen Gründen die Übersetzung beim formelleren &bdquo;Sie&rdquo; bleiben.
 
-Beispiel:
-
 > :arrow_forward: You can also use the search function in the top-left corner.
 >
 > :x: Du kannst auch die Suchfunktion in der oberen linken Ecke verwenden.
@@ -154,7 +152,6 @@ im Infinitiv-Imperativ (siehe Beispiele oben) zu übersetzen sind, da diese Form
 hier sprachlich gut passt und wenig Platz einnimmt. Auch sollten hier, wo möglich, 
 Artikel weggelassen werden, genauso wie es im Original meist schon gemacht wird.
 
-Beispiel:
 
 > :arrow_forward: Keep Screen On
 >
@@ -182,8 +179,6 @@ Form in den Sprachgebrauch Einzug gefunden haben (*Thread*, *Debuggen*,
 Andere Begriffe haben gängige deutsche Übersetzungen, wie z.B. *Knoten* für *node*. 
 Da es in der Godot-Welt Objekte gibt, die feststehende Namen haben, 
 etwa `Node2D`, wollen wir davon abgeleitete Vokabeln ebenfalls englisch lassen.
-
-Beispiel:
 
 > :arrow_forward: This feature is only available when connecting nodes in the editor.
 > 
@@ -254,8 +249,6 @@ Allerdings ist es im Allgemeinen besser, die grammatikalische Struktur des
 Begriffs
 aufzubrechen und ihn klar zu beschreiben. Dabei ist es notwenig,
 nachzulesen, was dieser Begriff im Kontext von Godot eigentlich genau bedeutet:
-
-Beispiel:
 
 > :arrow_forward: Medium Quality Probe Ray Count
 >
@@ -341,8 +334,6 @@ eine Änderung am Original oder stelle selbst einen Pull-Request in
 Wir sollten uns auf Weblate in erster Linie als Übersetzer und nicht als 
 Autoren verstehen.
 
-Beispiel:
-
 > :arrow_forward:: Computes the arctan of x
 >
 > :x: Berechnet den Arcustangens von x. Der Arcustangens ist die Umkehrfunktion
@@ -427,14 +418,10 @@ gewährleistet werden soll, lohnt sich auch ein Glossar-Eintrag. Beachte
 allerdings auch, dass ein sehr großes Glossar Pflegeaufwand bedeutet. Nicht 
 jedes Wort muss also unbedingt einen Eintrag bekommen.
 
-Beispiel:
-
 > :x: color -> Farbe
 
 Das Wort &bdquo;color&rdquo; ist ziemlich eindeutig und bedarf vermutlich keiner 
 expliziten Klärung in einem Glossar. 
-
-Beispiel:
 
 > :heavy_check_mark: ctrl -> Strg
  
@@ -443,7 +430,6 @@ deutsches Äquivalent verfügt. Dafür kann man durch eine &bdquo;Forbidden
 Translation&rdquo; (s.u.) darauf hinweisen, dass eine Übersetzung als das 
 vielleicht naheliegende &bdquo;Ctrl&rdquo; nicht zulässig ist.
 
-Beispiel:
 
 > :heavy_check_mark: aligned -> bündig/ausgerichet
 
@@ -451,8 +437,6 @@ In diesem Fall kann das Glossar dabei helfen, die verschiedenen
 Übersetzungen des Wortes &bdquo;aligned&rdquo; zu definieren, das in der Form 
 *left-aligned* als *linksbündig* und in der Form *axis-aligned* als *an den 
 Achsen ausgerichtet* übersetzt werden sollte.
-
-Beispiel:
 
 > :heavy_check_mark: blitting -> Blitting
 
@@ -468,8 +452,6 @@ sichergestellt werden, dass Einträge auch gefunden werden. Das kann nur
 gelingen, wenn ein Eintrag in der englischen Form genau so auch in einem 
 Text vorkommen kann.
 
-Beispiel:
-
 > :x: float, floats -> float
 >
 > :heavy_check_mark: float -> float
@@ -484,8 +466,6 @@ Sollte ein englisches Wort auf mehrere Arten übersetzt werden können, dann
 sollte für jede Übersetzung ein eigener Glossar-Eintrag angelegt werden. 
 Dies hilft bei der Lesbarkeit und macht es später leichter, weitere Bedeutungen 
 hinzuzufügen.
-
-Beispiel:
 
 > :x: volume -> Volumen, Lautstärke
 >
