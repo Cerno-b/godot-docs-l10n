@@ -294,8 +294,8 @@ Beispiele:
 
 Beim direkten Übersetzen eines englischen Satzes kommt man leicht in
 Versuchung, Schachtelsätze oder allgemein sehr lange Sätze zu bilden. Auch hier
-ist eine KI-Vorübersetzung von Nutzen. Im Allgemeinen ist es aber so, 
-dass deutsche Wörter und Sätze im Mittel länger
+ist eine KI-Vorübersetzung von Nutzen, die dies oft recht gut vermeidet. 
+Im Allgemeinen ist es allerdings einfach so, dass deutsche Wörter und Sätze im Mittel länger
 als ihre englischen Pendants sind. Daher sollte darauf geachtet werden,
 die deutsche Übersetzung nicht zu komplex oder zu lang werden zu lassen. Es
 kann durchaus guter Stil sein, einen Satz in zwei Sätze aufzuteilen, auch wenn
@@ -356,7 +356,7 @@ Wenn Du einen Begriff aus dem Editor oder den Properties änderst, solltest Du
 die Weblate-Seite der Anleitung nach diesen Begriffen durchsuchen und sie 
 entsprechend anpassen, damit die Übersetzungen konsistent bleiben.
 
-Beachte auch, dass ein Editor/Property-Begriff meist an mehreren Stellen im Editor
+Beachte auch, dass ein Editor/Properties-Begriff meist an mehreren Stellen im Editor
 oder den Properties vorkommt, sodass nach Möglichkeit alle dieser Stellen
 mit übersetzt werden sollten.
 
@@ -379,7 +379,7 @@ der Übersetzung eines Begriffs gut überlegen, ob man eine korrekte
 einmal etwas näher recherchieren sollte.
 
 Die erste Quelle bei der Übersetzung feststehender Begriffe
-sollte das Glossar und die bestehenden Übersetzungen in Weblate sein. 
+sollte das Glossar und die bestehenden Übersetzungen sein. 
 Die Suchfunktion von Weblate leistet hier gute Dienste.
 
 Wenn ein Begriff in diesen Quellen nicht gefunden werden kann oder Zweifel an 
@@ -405,7 +405,7 @@ nachzuschauen, wie andere Tools aus dem Bereich diese Begriffe übersetzen
 Übersetzer verfügen, ist dies eine besonders hilfreiche Quelle für sehr
 spezifische Fachbegriffe.
 
-Zuletzt kann es hilfreich sein, sich an erfahrene Entwickler zu wenden, um
+Zuletzt kann es sinnvoll sein, sich an erfahrene Entwickler zu wenden, um
 die Übersetzung eines Begriffs zu klären, entweder im [Chat](https://chat.godotengine.org/channel/translation-de) oder im
 [deutschen Godot-Discord](https://discord.com/channels/553242711109533729/)
 
@@ -413,8 +413,8 @@ die Übersetzung eines Begriffs zu klären, entweder im [Chat](https://chat.godo
 ## Glossar-Regeln
 
 Dieser Abschnitt befasst sich mit dem Glossar. Wenn Du einfach nur übersetzen 
-möchtest, kannst Du ihn überspringen. Falls Du aber Glossar-Einträge pflegen 
-möchtest, ist es ratsam, diesen Abschnitt zu lesen. 
+möchtest, kannst Du hier aufhören zu lesen. Falls Du aber Glossar-Einträge pflegen 
+möchtest, solltest Du weiterlesen. 
 
 Das Weblate-Glossar folgt bestimmten eigenen Regeln, die beachtet werden 
 sollten:
@@ -439,8 +439,8 @@ Beispiel:
 > :heavy_check_mark: ctrl -> Strg
  
 Hier haben wir einen Fachbegriff, der über ein eindeutiges 
-deutsches Äquivalent verfügt. Hier kann man durch eine &bdquo;Forbidden 
-Translation&rdquo; (s.u.) außerdem darauf hinweisen, dass eine Übersetzung als das 
+deutsches Äquivalent verfügt. Dafür kann man durch eine &bdquo;Forbidden 
+Translation&rdquo; (s.u.) darauf hinweisen, dass eine Übersetzung als das 
 vielleicht naheliegende &bdquo;Ctrl&rdquo; nicht zulässig ist.
 
 Beispiel:
@@ -457,22 +457,22 @@ Beispiel:
 > :heavy_check_mark: blitting -> Blitting
 
 Hier verweist das Glossar darauf, dass ein Begriff ein 
-feststehender Fachbegriff ist, der im Deutschen keine gute deutsche Entsprechung 
+feststehender Fachbegriff ist, der im keine gute deutsche Entsprechung 
 hat und daher englisch bleibt.
 
 ### Ein Wort, ein Eintrag
 
-Da Weblate seine Glossar-Einträge bei der Übersetzung automatisch anbitet,
-sobald im Originaltext ein Glossar-Begriff vorkommt, sollte 
+Da Weblate seine Glossar-Einträge bei der Übersetzung automatisch anbietet,
+sobald im Originaltext ein bestimmter Begriff vorkommt, sollte 
 sichergestellt werden, dass Einträge auch gefunden werden. Das kann nur 
 gelingen, wenn ein Eintrag in der englischen Form genau so auch in einem 
 Text vorkommen kann.
 
 Beispiel:
 
-> :x: float, floats
+> :x: float, floats -> float
 >
-> :heavy_check_mark: float
+> :heavy_check_mark: float -> float
 
 Im vorigen Beispiel könnte Weblate den Glossareintrag das Wort nicht 
 finden, da der Begriff *float, floats* so im Originaltext nicht vorkommen wird,
@@ -487,13 +487,14 @@ hinzuzufügen.
 
 Beispiel:
 
-> :x: Volumen, Lautstärke
+> :x: volume -> Volumen, Lautstärke
 >
-> :heavy_check_mark: Volumen (*Translation Explanation:* im Sinne von &bdquo;Rauminhalt&rdquo;)
+> :heavy_check_mark: volume -> Volumen (*Translation Explanation:* im Sinne von &bdquo;Rauminhalt&rdquo;)
 > 
-> :heavy_check_mark: Lautstärke (*Translation Explanation:* im Audio-Kontext)
+> :heavy_check_mark: volume -> Lautstärke (*Translation Explanation:* im Audio-Kontext)
 
-Es bietet sich an, über das jeweilige Explanation-Feld zu beschreiben, wie sich 
+Es bietet sich an, über das jeweilige &bdquo;Translation Explanation&rdquo;-Feld 
+zu beschreiben, wie sich 
 die verschiedenen Übersetzungen unterscheiden und in welchen Fällen man sie 
 verwenden sollte.
 
@@ -547,7 +548,7 @@ Ein als &bdquo;Untranslatable&rdquo; markierter Eintrag ist ein Begriff, der bew
 übersetzt werden soll, z.B. feststehende Begriffe wie `Android` oder `OpenGL`.
 Allerdings haben viele dieser Begriffe eigentlich nichts im Glossar verloren,
 sodass dieses Flag nicht allzu häufig vorkommen sollte. 
-Man kann einen als *untranslatable* markierten Begriff daran 
+Man kann einen als &bdquo;Untranslatable&rdquo; markierten Begriff daran 
 erkennen, dass er bei der Glossar-Einblendung gelb hinterlegt ist.
 
 ### Forbidden Translation
@@ -558,7 +559,8 @@ Beispiel weil sie einen fehleranfälligen
 [Falschen Freund](https://de.wikipedia.org/wiki/Falscher_Freund) darstellt 
 oder um bestimmte deutsche Begriffe zu sperren. Zum Beispiel könnte man sich 
 darauf einigen, den Begriff *enemy* durchgängig als *Gegner* und nicht als das 
-extremere *Feind* zu übersetzen.
+extremere *Feind* zu übersetzen. In dem Fall würden beide Begriffe ins Glossar
+eingetragen, wobei der zweite als &bdquo;Forbidden Translation&rdquo; markiert wird.
 
 ## Änderungen an diesem Dokument
 
