@@ -1,12 +1,15 @@
 # Stilregeln für die Übersetzung von Godot ins Deutsche
 
+Originalautor: Cerno_b (cerno.b@gmail.com)
+
 ## Einleitung
 
 Dieses Dokument soll dabei helfen, die deutsche Übersetzung von Godot, sowie
 der Godot-Dokumentation, stilistisch zu vereinheitlichen. Dabei sollen
 Lesbarkeit, Klarheit und Benutzbarkeit besonders im Vordergrund stehen.
 
-Für die Übersetzung selbst ist das Tool Weblate im Einsatz, das in der
+Für die Übersetzung selbst ist das Tool 
+[Weblate](https://hosted.weblate.org/projects/godot-engine/) im Einsatz, das in der
 [offiziellen Dokumentation](https://docs.godotengine.org/de/4.x/contributing/documentation/editor_and_docs_localization.html) näher
 erläutert wird. Die Bedienung von Weblate ist nicht Bestandteil dieses
 Dokuments.
@@ -28,7 +31,7 @@ führt, wenn man den Originaltext von einer KI vorübersetzen lässt.
 
 Ein sehr zu empfehlender Übersetzungsdienst ist hier die Website 
 https://www.deepl.com, die hervorragende Erstübersetzungen zur Verfügung stellt 
-und selbst Formatierungszeichen, wie Fettdruck oder sogar Links in vielen Fällen
+und selbst Formatierungszeichen, wie Fettdruck oder Links in vielen Fällen
 korrekt in die Übersetzung übernimmt.
 
 Ein weiterer Vorteil dieser Art zu übersetzen ist, dass ein und derselbe Text
@@ -60,65 +63,74 @@ praktischen Gründen die Übersetzung beim formelleren &bdquo;Sie&rdquo; bleiben
 Beispiel:
 > **Original:** You can also use the search function in the top-left corner.
 >
-> :x:: Du kannst auch die Suchfunktion in der oberen linken Ecke verwenden.
+> :x: Du kannst auch die Suchfunktion in der oberen linken Ecke verwenden.
 >
-> :heavy_check_mark:: Sie können auch die Suchfunktion in der oberen linken Ecke verwenden.
+> :heavy_check_mark: Sie können auch die Suchfunktion in der oberen linken Ecke verwenden.
 
 ### Grammatikalische Prinzipien
 
 Die Godot-Übersetzung lässt sich in vier grobe Blöcke einteilen: *Editor*, 
-*Properties*, *Anleitung* und *Code-Referenzen*.
+*Properties*, *Anleitung* und *Klassenreferenz*.
 
 Jeder dieser Blöcke hat eigene Ansprüche
 an eine Übersetzung. Während die Anleitung in erster Linie auf Verständlichkeit
 ausgelegt ist und sich angenehm lesen soll, ist im Editor und den Properties
-häufig eine etwas knappere Sprache erforderlich, auch weil oft nur begrenzt
+häufig eine etwas knappere Sprache erforderlich, weil oft nur begrenzt
 Platz für die Texte zur Verfügung steht.
 
-Folgende Grundregeln haben sich als sinnvoll herausgestellt. Beachte, dass
-diese Regeln nicht absolut sind und im Zweifel mit Augenmaß übersetzt werden 
-sollte. Trotzdem sollten, wenn möglich, im Sinne eines einheitlichen Stils
-diese Regeln beachtet werden:
+Es ist daher sinnvoll, grammatikalische Grundregeln für die Übersetzung 
+aufzustellen. Beachte, dass diese Regeln nicht absolut sind und im Zweifel 
+mit Augenmaß übersetzt werden sollte. Trotzdem helfen solche Regeln, 
+einen einheitlichen Sprachstil über die gesamte Dokumentation hinweg zu fördern.
 
-## Anleitung/Code-Referenzen
+Folgende Grundregeln werden aktuell in der Übersetzung angewendet: 
+
+#### Anleitung/Klassenreferenz
 
 In der Anleitung sollte die grammatikalische Form des Originaltexts beibehalten
 werden, es sei denn die Lesbarkeit leidet darunter. Es sollte darauf verzichtet
 werden, auf Zwang bestimmte Sprachkonstrukte, wie Passiv zu verwenden, wenn 
 der Originaltext dies nicht auch tut. Insbesondere die direkte Ansprache mit 
-"Sie" ist in diesem Teil der Dokumentation üblich.
+"Sie" ist in diesem Teil der Dokumentation weit verbreitet.
 
 Beispiele:
-> **Original:** The table of contents in the sidebar should let you easily access the documentation for your topic of interest.
+> **Original:** The table of contents in the sidebar should let you easily 
+> access the documentation for your topic of interest.
 > 
-> :heavy_check_mark:: Mithilfe des Inhaltsverzeichnisses in der Seitenleiste können Sie leicht auf die Dokumentation zu Ihrem gewünschten Thema zugreifen. 
+> :heavy_check_mark: Mithilfe des Inhaltsverzeichnisses in der Seitenleiste 
+> können Sie leicht auf die Dokumentation zu Ihrem gewünschten Thema zugreifen. 
  
-> **Original:**  To move our icon, we need to update its position and rotation every frame in the game loop.
+> **Original:**  To move our icon, we need to update its position and rotation 
+> every frame in the game loop.
 > 
-> :heavy_check_mark:: Um unser Icon zu bewegen, müssen wir seine Position und Drehung in jedem Frame der Spielschleife aktualisieren. 
+> :heavy_check_mark: Um unser Icon zu bewegen, müssen wir seine Position und 
+> Drehung in jedem Frame der Spielschleife aktualisieren. 
 
-> *Original:** This build can be manually triggered by clicking the "Build" button at the top right of the editor.
+> **Original:** This build can be manually triggered by clicking the "Build" 
+> button at the top right of the editor.
 > 
-> :heavy_check_mark:: Dieser Build kann manuell ausgelöst werden, indem Sie auf den &bdquo;Build&rdquo;-Button oben rechts im Editor klicken.
+> > :heavy_check_mark: Dieser Build kann manuell ausgelöst werden, indem man auf den
+> &bdquo;Build&rdquo;-Button oben rechts im Editor klickt.
 
-Bei manchen Abschnitten der Anleitung, wie z.B. bestimmte Überschriften oder Aufzählungen,
+
+Bei manchen Abschnitten der Anleitung, wie bestimmten Überschriften oder Aufzählungen,
 bietet sich der [Infinitiv-Imperativ](https://de.wikipedia.org/wiki/Imperativ_(Modus)#Infinitiv) an. 
 
 > **Original:** Setting up the project
 > 
-> :heavy_check_mark:: Das Projekt einrichten
+> :heavy_check_mark: Das Projekt einrichten
 
 > **Original:** For the player, we need to do the following:
 > * Check for input.
 > * Move in the given direction.
 > * Play the appropriate animation.
 > 
-> :heavy_check_mark:: Für den Spieler müssen wir Folgendes tun:
+> :heavy_check_mark: Für den Spieler müssen wir Folgendes tun:
 > * Auf Eingaben prüfen.
 > * Sich in die angegebene Richtung bewegen.
 > * Die entsprechende Animation abspielen.
 
-## Properties
+#### Properties
 
 Die *Properties* sind sehr knapp beschriebene Eigenschaften von Godot-Features,
 die im Editor oft wenig Platz einnehmen. Hier handelt es sich oft um einzelne Begriffe,
@@ -131,17 +143,17 @@ Artikel weggelassen werden, was aber oft bereits im Original so gemacht wird.
 
 > **Original** Keep Screen On
 >
-> :x:: Der Bildschirm wird eingeschaltet gelassen
+> :x: Der Bildschirm wird eingeschaltet gelassen
 > 
-> :heavy_check_mark:: Bildschirm eingeschaltet lassen
+> :heavy_check_mark: Bildschirm eingeschaltet lassen
 
-## Editor
+#### Editor
 
-Die Texte des Editors bestehen sowohl aus ganzen Texten, wenn z.B. ein Tooltip 
+Die Texte des Editors bestehen sowohl aus kleinen Textblöcken, wenn z.B. ein Tooltip 
 eine Einstellung näher beschreibt, als auch aus kurzen Begriffen, die oft wenig
 Platz zur Verfügung haben.
 
-Bei der Übersetzung gelten hier sowohl die Regeln für die Anleitung, als auch 
+Bei der Übersetzung des Editors gelten somit sowohl die Regeln für die Anleitung, als auch 
 die für die Properties, je nachdem, ob der zu übersetzende Text eher Langform
 oder Kurzform darstellt.
 
@@ -153,27 +165,25 @@ Form in den Sprachgebrauch Einzug gefunden haben (Thread, Debuggen,
 Spawn-Punkt).
 
 Andere Begriffe haben gängige deutsche Übersetzungen, wie z.B. *Knoten* für *node*. 
-Da es in der Godot-Welt und insbesondere GDScript Begriffe gibt, die 
-fest stehen, etwa `Node2D`, wollen wir in der Dokumentation bei Godot-nahen
-Vokabeln die englische Version bevorzugen.
+Da es in der Godot-Welt Objekte gibt, die feststehende Namen haben, 
+etwa `Node2D`, wollen wir davon abgeleitete Vokabeln ebenfalls englisch lassen.
 
 > **Original:** This feature is only available when connecting nodes in the editor.
 > 
-> :x:: Dieses Feature ist nur verfügbar, wenn Knoten im Editor verbunden werden.
+> :x: Dieses Feature ist nur verfügbar, wenn Knoten im Editor verbunden werden.
 > 
-> :heavy_check_mark:: Dieses Feature ist nur verfügbar, wenn Nodes im Editor verbunden werden.
+> :heavy_check_mark: Dieses Feature ist nur verfügbar, wenn Nodes im Editor verbunden werden.
 
 Du wirst beim Lesen der Anleitung vieler dieser absichtlich unübersetzen
-Begriffe finden und es mach an der einen oder anderen Stelle etwas ungewohnt wirken,
+Begriffe finden. Dies mag an der einen oder anderen Stelle etwas ungewohnt wirken,
 aber es gibt viele Stellen, an denen damit Übersetzungsprobleme vermieden werden können.
 
 Sollte es vorkommen, dass eine Regel unsinnig erscheint, sollte das im 
-[Chat](https://chat.godotengine.org/channel/translation-de) diskutiert werden. Um einen Überblick über die Begriffe zu bekommen,
-die englisch bleiben (zumindest die Fälle, die dokumentiert sind), lohnt sich ein 
+[Chat](https://chat.godotengine.org/channel/translation-de) diskutiert werden. Um einen Überblick über die dokumentierten Begriffe 
+zu bekommen, die englisch bleiben sollen, lohnt sich ein 
 Blick ins [Glossar](https://hosted.weblate.org/browse/godot-engine/glossary/de/). 
-
-Sollte ein Begriff dort nicht hinterlegt sein, lohnt es sich, die Suchfunktion
-von Weblate zu verwenden, um ähnliche Übersetzungen zu finden.
+Sollte ein Begriff dort nicht hinterlegt sein, kann man die Suchfunktion
+von Weblate zu verwenden, um Beispiele in den vorhandenen Übersetzungen zu finden.
 
 Manchmal ist es auch notwendig, nach eigenem Empfinden eine Entscheidung zu
 treffen oder von einer der Glossar-Regeln abzuweichen. 
@@ -183,16 +193,16 @@ Lösung gibt.
 Beispiel 1:
 > **Original:** Stereo Panning
 >
-> :x:: Stereoverschiebung
+> :x: Stereoverschiebung
 >
-> :heavy_check_mark:: Stereo-Panning
+> :heavy_check_mark: Stereo-Panning
 
 Beispiel 2:
 > **Original:** Drag to pan the view
 >
-> :x:: Ziehen, um den View zu pannen.
+> :x: Ziehen, um den View zu pannen.
 >
-> :heavy_check_mark:: Ziehen um den View zu verschieben
+> :heavy_check_mark: Ziehen um den View zu verschieben
 
 
 Das Erste Beispiel stammt aus dem Audio-Bereich, wo Stereo-Panning ein gängiger
@@ -200,14 +210,13 @@ Begriff ist. Das zweite Beispiel verwendet das Wort &bdquo;panning&rdquo; als
 allgemeine Vokabel. Hier ist kein besonderer technischer Jargon
 gemeint, somit kann das Wort auch normal auf Deutsch übersetzt werden.
 
-Diese Unterscheidung kann im Glossar durch zwei Einträge desselben Wortes
-abgebildet werden, jeweils mit einer Beschreibung, in welchen Fällen
-welche Übersetzung verwendet werden sollte.
+Diese Unterscheidung wird im Glossar oft mit zwei Einträge desselben Wortes
+abgebildet. Dabei soll ein Beschreibungstext dabei helfen, zu erklären,
+in welchem Kontext welche Übersetzung passend ist.
 
-Am Ende dieses Dokuments findest Du Recherchetipps, die dabei helfen können,
-eine passende Übersetzung zu finden. Beachte bitte, dass Ergebnisse solcher
-Recherchen sehr wertvoll sind und daher in einem Glossareintrag dokumentiert
-werden sollten.
+Weiter unten findest Du Recherchetipps, die dabei helfen können,
+eine passende Übersetzung zu finden, sollte ein Begriff weder im Glossar
+noch in der bestehenden Dokumentation hinterlegt sein.
 
 ### Kompositionswörter
 
@@ -230,9 +239,9 @@ nachzulesen, was dieser Begriff im Kontext von Godot eigentlich genau bedeutet:
 Beispiel:
 > **Original:** Medium Quality Probe Ray Count
 >
-> :x:: Mittelqualitätsprobestrahlenanzahl
+> :x: Mittelqualitätsprobestrahlenanzahl
 >
-> :heavy_check_mark:: Strahlenzahl für Probes bei mittlerer Qualität
+> :heavy_check_mark: Strahlenzahl für Probes bei mittlerer Qualität
 
 Es sollte bei der Übersetzung generell vermieden werden, überlange Komposita zu
 erzeugen. Als Richtschnur sollten mehr als zwei Wörter nur in Ausnahmefällen zu
@@ -244,20 +253,20 @@ voneinander zu trennen.
 Beispiel 1:
 > **Original:** Interaction Profile Path
 >
-> :x:: Interaktionsprofilpfad
+> :x: Interaktionsprofilpfad
 >
-> :heavy_minus_sign:: Interaktionsprofil-Pfad
+> :heavy_minus_sign: Interaktionsprofil-Pfad
 >
-> :heavy_check_mark:: Pfad zum Interaktionsprofil
+> :heavy_check_mark: Pfad zum Interaktionsprofil
 
 Beispiel 2:
 > **Original:** Render Target Size Multiplier
 >
-> :x:: Renderzielgrößenfaktor
+> :x: Renderzielgrößenfaktor
 >
-> :heavy_minus_sign:: Render-Zielgrößen-Faktor
+> :heavy_minus_sign: Render-Zielgrößen-Faktor
 >
-> :heavy_check_mark:: Faktor für Render-Zielgröße
+> :heavy_check_mark: Faktor für Render-Zielgröße
 
 ### Schachtelsätze und &bdquo;die die&rdquo;-Wiederholungen
 
@@ -278,23 +287,23 @@ Beispiel 1:
 > **Original:** Min SDK cannot be lower than %d, which is the version
 > needed by the Godot library.
 >
-> :x:: Min SDK kann nicht niedriger als %d sein, der Version, die die
+> :x: Min SDK kann nicht niedriger als %d sein, der Version, die die
 > Godot-Bibliothek benötigt.
 >
-> :heavy_check_mark:: Min SDK kann nicht niedriger als %d sein (die
+> :heavy_check_mark: Min SDK kann nicht niedriger als %d sein (die
 > Version, die von der Godot-Bibliothek benötigt wird).
 
 Beispiel 2:
 > **Original:** In addition, one will need a primary GUI for their game that
 > manages the various menus and widgets the project needs.
 >
-> :x:: Außerdem benötigt man für sein Spiel eine primäre GUI, die die
+> :x: Außerdem benötigt man für sein Spiel eine primäre GUI, die die
 > verschiedenen Menüs und Widgets verwaltet, die das Projekt benötigt.
 >
-> :heavy_check_mark:: Außerdem benötigt man für sein Spiel eine primäre GUI,
+> :heavy_check_mark: Außerdem benötigt man für sein Spiel eine primäre GUI,
 > um die verschiedenen Menüs und Widgets des Projekts zu verwalten.
 >
-> :heavy_check_mark:: Außerdem benötigt man für sein Spiel eine primäre GUI.
+> :heavy_check_mark: Außerdem benötigt man für sein Spiel eine primäre GUI.
 > Diese GUI verwaltet die verschiedenen Menüs und Widgets des Projekts.
 
 ### Eigene Ergänzungen
@@ -304,45 +313,39 @@ Achte bei der Übersetzung der Anleitung darauf, nur den Originaltext zu
 der Originaltext unvollständig oder erklärungswürdig sein, so beantrage zuerst
 eine Änderung am Original oder stelle selbst einen Pull-Request in 
 [godot-docs](https://github.com/godotengine/godot-docs). 
-Wir sollten uns aus Weblate in erster Linie als Übersetzer und nicht als 
+Wir sollten uns auf Weblate in erster Linie als Übersetzer und nicht als 
 Autoren verstehen.
 
 Beispiel:
 > **Original**: Computes the arctan of x
 >
-> :x:: Berechnet den Arcustangens von x. Der Arcustangens ist die Umkehrfunktion
+> :x: Berechnet den Arcustangens von x. Der Arcustangens ist die Umkehrfunktion
 > des Tangens.
 >
-> :heavy_check_mark:: Berechnet den Arcustangens von x
+> :heavy_check_mark: Berechnet den Arcustangens von x
 
 ## Konsistenz zwischen Editor/Properties und Anleitung
 
 Wenn Du einen Begriff aus dem Editor oder den Properties änderst, solltest Du
 die Weblate-Seite der Anleitung nach diesen Begriffen durchsuchen und sie 
-entsprechend anpassen, damit die Übersetzungen zusammenpassen.
+entsprechend anpassen, damit die Übersetzungen konsistent bleiben.
 
-Beachte auch, dass ein Editor/Property-Begriff an mehreren Stellen im Editor
+Beachte auch, dass ein Editor/Property-Begriff meist an mehreren Stellen im Editor
 oder den Properties vorkommt, sodass nach Möglichkeit alle dieser Stellen
 mit übersetzt werden sollten.
 
 ## Testen der Übersetzung
 
-Für Übersetzungen des *Editors* und der *Properties* ist es ratsam, diese 
+Für Übersetzungen des Editors und der Properties ist es ratsam, diese 
 auch selbst zu testen, indem 
 man [die aktuelle Übersetzung herunterlädt](https://docs.godotengine.org/de/4.x/contributing/documentation/editor_and_docs_localization.html#offline-translation-and-testing) 
 und Godot mit den Änderungen [selbst kompiliert](https://docs.godotengine.org/de/4.x/contributing/development/compiling/compiling_for_windows.html).
 
 Gerade bei der Anleitung kommt es oft auf den Kontext zwischen benachbarten
-Textblöcken an, sodass das Lesen eines ganzen Artikels leicht Fehler sichtbar 
+Textblöcken an, sodass das Lesen eines ganzen Artikels Fehler sichtbar 
 macht, die in Weblate leicht überlesen werden können.
 
 ## Recherchetipps
-
-Insbesondere Fachbegriffe aus dem mathematischen und physikalischen Bereich
-haben oft gängige deutsche Übersetzungen, andere Begriffe stammen aus Godot
-selbst oder sollten prinzipiell einheitlich übersetzt werden. Auch sollte die
-Anleitung zum Editor passen, insbesondere wenn es um die Benamung von Menüs
-etc. geht.
 
 Grundsätzlich sollte man sich bei
 der Übersetzung eines Begriffs gut überlegen, ob man eine korrekte
@@ -366,7 +369,7 @@ dieselbe Bedeutung des Wortes beschreibt, wie der englische Artikel.
 
 Bei weiteren allgemeinen technischen Begriffen kann
 man auf Webseiten wie www.linguee.com zurückgreifen, um zu schauen, wie
-ein Begriff von anderen, oft professionellen Übersetzern in unterschiedlichen 
+ein Begriff von anderen, oft professionellen, Übersetzern in unterschiedlichen 
 Kontexten bereits übersetzt wurde.
 
 Zuletzt gibt es Fachbegriffe, die direkt aus dem Gaming oder Game-Design
@@ -384,8 +387,8 @@ die Übersetzung eines Begriffs zu klären, entweder im [Chat](https://chat.godo
 ## Glossar-Regeln
 
 Dieser Abschnitt befasst sich mit dem Glossar. Wenn Du einfach nur übersetzen 
-möchtest, kannst du ihn überspringen. Falls Du aber Glossar-Einträge pflegen 
-möchtest, ist es ratsam diesen Abschnitt zu lesen. 
+möchtest, kannst Du ihn überspringen. Falls Du aber Glossar-Einträge pflegen 
+möchtest, ist es ratsam, diesen Abschnitt zu lesen. 
 
 Das Weblate-Glossar folgt bestimmten eigenen Regeln, die beachtet werden 
 sollten:
@@ -399,47 +402,47 @@ allerdings auch, dass ein sehr großes Glossar Pflegeaufwand bedeutet. Nicht
 jedes Wort muss also unbedingt einen Eintrag bekommen.
 
 Beispiel:
-> :x:: color -> Farbe
+> :x: color -> Farbe
 
 Das Wort &bdquo;color&rdquo; ist ziemlich eindeutig und bedarf vermutlich keiner 
 expliziten Klärung in einem Glossar. 
 
-Ein paar weitere Beispiele:
-
-> :heavy_check_mark:: ctrl -> Strg
-> 
-> :heavy_check_mark:: aligned -> bündig/ausgerichet
-> 
-> :heavy_check_mark:: blitting -> Blitting
-
-Im ersten Beispiel haben wir einen Fachbegriff, der über ein eindeutiges 
+> :heavy_check_mark: ctrl -> Strg
+ 
+Hier haben wir einen Fachbegriff, der über ein eindeutiges 
 deutsches Äquivalent verfügt. Hier kann man durch eine &bdquo;Forbidden 
 Translation&rdquo; (s.u.) außerdem darauf hinweisen, dass eine Übersetzung als das 
-naheliegende &bdquo;Ctrl&rdquo; nicht zulässig ist.
+vielleicht naheliegende &bdquo;Ctrl&rdquo; nicht zulässig ist.
 
-Im zweiten Beispiel kann das Glossar dabei helfen, die verschiedenen 
+> :heavy_check_mark: aligned -> bündig/ausgerichet
+
+In diesem Fall kann das Glossar dabei helfen, die verschiedenen 
 Übersetzungen des Wortes &bdquo;aligned&rdquo; zu definieren, das in der Form 
 *left-aligned* als *linksbündig* und in der Form *axis-aligned* als *an den 
 Achsen ausgerichtet* übersetzt werden sollte.
 
-Im dritten Beispiel kann das Glossar darauf hinweisen, dass ein Begriff ein 
-feststehender Fachbegriff ist, der im Deutschen keine deutsche Entsprechung 
+> :heavy_check_mark: blitting -> Blitting
+
+Hier verweist das Glossar darauf, dass ein Begriff ein 
+feststehender Fachbegriff ist, der im Deutschen keine gute deutsche Entsprechung 
 hat und daher englisch bleibt.
 
 ### Ein Wort, ein Eintrag
 
-Da Weblate seine Glossar-Einträge bei der Übersetzung automatisch anzeigt, sollte 
+Da Weblate seine Glossar-Einträge bei der Übersetzung automatisch anbitet,
+sobald im Originaltext ein Glossar-Begriff vorkommt, sollte 
 sichergestellt werden, dass Einträge auch gefunden werden. Das kann nur 
 gelingen, wenn ein Eintrag in der englischen Form genau so auch in einem 
 Text vorkommen kann.
 
 Beispiel:
-> :x:: float, floats
+> :x: float, floats
 >
-> :heavy_check_mark:: float
+> :heavy_check_mark: float
 
-Im vorigen Beispiel könnte Weblate den Glossareintrag zum Wort *float* nicht 
-finden, der Begriff "float, floats" so im Originaltext nicht vorkommen wird.
+Im vorigen Beispiel könnte Weblate den Glossareintrag das Wort nicht 
+finden, da der Begriff *float, floats* so im Originaltext nicht vorkommen wird,
+wenn dort lediglich der Begriff *float* beschrieben wird.
 
 ### Ein Wort, mehrere Bedeutungen
 
@@ -449,11 +452,11 @@ Dies hilft bei der Lesbarkeit und macht es später leichter, weitere Bedeutungen
 hinzuzufügen.
 
 Beispiel:
-> :x:: Volumen, Lautstärke
+> :x: Volumen, Lautstärke
 >
-> :heavy_check_mark:: Volumen (*Translation Explanation:* im Sinne von &bdquo;Rauminhalt&rdquo;)
+> :heavy_check_mark: Volumen (*Translation Explanation:* im Sinne von &bdquo;Rauminhalt&rdquo;)
 > 
-> :heavy_check_mark:: Lautstärke (*Translation Explanation:* im Audio-Kontext)
+> :heavy_check_mark: Lautstärke (*Translation Explanation:* im Audio-Kontext)
 
 Es bietet sich an, über das jeweilige Explanation-Feld zu beschreiben, wie sich 
 die verschiedenen Übersetzungen unterscheiden und in welchen Fällen man sie 
@@ -467,14 +470,14 @@ zugeordnet werden kann. Das bedeutet bei Verben die Grundform (**wichtig:** ohne
 und bei Substantiven der Singular.
 
 Beispiel 1:
-> :x:: to hide -> verbergen
+> :x: to hide -> verbergen
 > 
-> :heavy_check_mark:: hide -> verbergen
+> :heavy_check_mark: hide -> verbergen
 
 Beispiel 2:
-> :x:: constants -> Konstanten
+> :x: constants -> Konstanten
 > 
-> :heavy_check_mark:: constant -> Konstante
+> :heavy_check_mark: constant -> Konstante
 
 Leider unterstützt die aktuelle Version von Weblate keine 
 morphologischen Varianten. Wenn also ein Wort im Glossar als Singular angegeben wird, dann
@@ -517,5 +520,10 @@ werden, um eine Übersetzung aufzuzeigen, die nicht verwendet werden soll, zum
 Beispiel weil sie einen fehleranfälligen 
 [Falschen Freund](https://de.wikipedia.org/wiki/Falscher_Freund) darstellt 
 oder um bestimmte deutsche Begriffe zu sperren. Zum Beispiel könnte man sich 
-darauf einigen, den Begriff *enemy* durchgängig als *Gegner* nicht als das 
+darauf einigen, den Begriff *enemy* durchgängig als *Gegner* und nicht als das 
 extremere *Feind* zu übersetzen.
+
+## Änderungen an diesem Dokument
+
+Änderungen an diesem Dokument sollten im [Chat](https://chat.godotengine.org/channel/translation-de) diskutiert und nach 
+Klärung per Pull-Request ins Github-Repo committet werden. 
