@@ -118,7 +118,7 @@ Beispiel 3:
 
 
 Bei manchen Abschnitten der Anleitung, wie bestimmten Überschriften oder Aufzählungen,
-bietet sich der [Infinitiv-Imperativ](https://de.wikipedia.org/wiki/Imperativ_(Modus)#Infinitiv) an. 
+bietet sich der [Infinitiv-Imperativ](https://de.wikipedia.org/wiki/Imperativ_(Modus)#Infinitiv) an: 
 
 Beispiel 1:
 > :arrow_forward: Setting up the project
@@ -139,8 +139,9 @@ Beispiel 2:
 #### Properties
 
 Die *Properties* sind sehr knapp beschriebene Eigenschaften von Godot-Features,
-die im Editor oft wenig Platz einnehmen. Hier handelt es sich oft um einzelne Begriffe,
-bei denen die Schwierigkeit eher im Finden der korrekten Vokabel besteht (dazu mehr unten).
+die im Editor oft nur wenig Platz zur Verfügung haben. Hier handelt es sich häufig 
+um einzelne Begriffe, bei denen die Schwierigkeit eher im Finden der korrekten 
+Vokabel besteht (dazu mehr unten), als in der grammatikalischen Form.
 
 Manchmal sind es jedoch kurze Sätze, die in den meisten Fällen am besten
 im Infinitiv-Imperativ (siehe Beispiele oben) zu übersetzen sind, da diese Form 
