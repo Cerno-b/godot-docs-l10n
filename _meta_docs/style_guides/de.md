@@ -169,15 +169,15 @@ eine Einstellung näher beschreibt, als auch aus kurzen Begriffen, die oft wenig
 Platz zur Verfügung haben.
 
 Bei der Übersetzung des Editors gelten somit sowohl die Regeln für die Anleitung, als auch 
-die für die Properties, je nachdem, ob der zu übersetzende Text eher Langform
-oder Kurzform darstellt.
+die für die Properties, je nachdem, ob der zu übersetzende Text eher in Langform
+oder in Kurzform geschrieben ist.
 
 ### Keine Angst vor englischen Begriffen
 
 Manche Begriffe lassen sich nur schwer ins Deutsche übersetzen. Das sind zum
 Beispiel technische Begriffe, die bereits in ihrer englischen
-Form in den Sprachgebrauch Einzug gefunden haben (Thread, Debuggen,
-Spawn-Punkt).
+Form in den Sprachgebrauch Einzug gefunden haben (*Thread*, *Debuggen*,
+*Spawn-Punkt*).
 
 Andere Begriffe haben gängige deutsche Übersetzungen, wie z.B. *Knoten* für *node*. 
 Da es in der Godot-Welt Objekte gibt, die feststehende Namen haben, 
@@ -191,21 +191,21 @@ Beispiel:
 > 
 > :heavy_check_mark: Dieses Feature ist nur verfügbar, wenn Nodes im Editor verbunden werden.
 
-Du wirst beim Lesen der Anleitung vieler dieser absichtlich unübersetzen
+Du wirst beim Lesen der Anleitung viele dieser absichtlich eingedeutschten
 Begriffe finden. Dies mag an der einen oder anderen Stelle etwas ungewohnt wirken,
-aber es gibt viele Stellen, an denen damit Übersetzungsprobleme vermieden werden können.
+aber es gibt viele Situationen, in denen damit Übersetzungsprobleme vermieden werden können.
 
 Sollte es vorkommen, dass eine Regel unsinnig erscheint, sollte das im 
 [Chat](https://chat.godotengine.org/channel/translation-de) diskutiert werden. Um einen Überblick über die dokumentierten Begriffe 
 zu bekommen, die englisch bleiben sollen, lohnt sich ein 
 Blick ins [Glossar](https://hosted.weblate.org/browse/godot-engine/glossary/de/). 
 Sollte ein Begriff dort nicht hinterlegt sein, kann man die Suchfunktion
-von Weblate zu verwenden, um Beispiele in den vorhandenen Übersetzungen zu finden.
+von Weblate verwenden, um Beispiele in den vorhandenen Übersetzungen zu finden.
 
 Manchmal ist es auch notwendig, nach eigenem Empfinden eine Entscheidung zu
 treffen oder von einer der Glossar-Regeln abzuweichen. 
-Sprache ist zu komplex, als dass es für jeden Fall eine vordefinierte
-Lösung gibt.
+Das ist vollkommen okay, denn Sprache ist komplex, und man kann nicht für
+jeden Sonderfall eine vordefinierte Lösung festlegen.
 
 Beispiel 1:
 
@@ -235,12 +235,12 @@ in welchem Kontext welche Übersetzung passend ist.
 
 Weiter unten findest Du Recherchetipps, die dabei helfen können,
 eine passende Übersetzung zu finden, sollte ein Begriff weder im Glossar
-noch in der bestehenden Dokumentation hinterlegt sein.
+noch in der bestehenden Dokumentation auffindbar sein.
 
 ### Kompositionswörter
 
 Das im deutschen übliche Aneinanderreihen von Wörtern (Komposition) wird
-im Englischen üblicherweise durch das Hintereinandersetzen von Wörtern mit
+im Englischen durch das Hintereinandersetzen von Wörtern mit
 Leerzeichen erreicht. Bei sehr langen Wortfolgen ergeben sich dabei
 logische Untergruppen aus dem Zusammenhang, auch wenn das in Extremfällen
 manchmal wenig intuitiv erscheint:
@@ -276,9 +276,9 @@ Beispiele:
 >
 > :x: Interaktionsprofilpfad
 >
-> :heavy_minus_sign: Interaktionsprofil-Pfad
+> :heavy_check_mark: Interaktionsprofil-Pfad
 >
-> :heavy_check_mark: Pfad zum Interaktionsprofil
+> :heavy_check_mark: :heavy_check_mark: Pfad zum Interaktionsprofil
 
 <br/>
 
@@ -286,9 +286,9 @@ Beispiele:
 >
 > :x: Renderzielgrößenfaktor
 >
-> :heavy_minus_sign: Render-Zielgrößen-Faktor
+> :heavy_check_mark: Render-Zielgrößen-Faktor
 >
-> :heavy_check_mark: Faktor für Render-Zielgröße
+> :heavy_check_mark: :heavy_check_mark: Faktor für Render-Zielgröße
 
 ### Schachtelsätze und &bdquo;die die&rdquo;-Wiederholungen
 
