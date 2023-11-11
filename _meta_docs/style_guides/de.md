@@ -278,7 +278,7 @@ Beispiele:
 >
 > :heavy_check_mark: Interaktionsprofil-Pfad
 >
-> :heavy_check_mark: :heavy_check_mark: Pfad zum Interaktionsprofil
+> :heavy_check_mark: Pfad zum Interaktionsprofil
 
 <br/>
 
@@ -288,13 +288,14 @@ Beispiele:
 >
 > :heavy_check_mark: Render-Zielgrößen-Faktor
 >
-> :heavy_check_mark: :heavy_check_mark: Faktor für Render-Zielgröße
+> :heavy_check_mark: Faktor für Render-Zielgröße
 
 ### Schachtelsätze und &bdquo;die die&rdquo;-Wiederholungen
 
 Beim direkten Übersetzen eines englischen Satzes kommt man leicht in
-Versuchung, Schachtelsätze oder allgemein sehr lange Sätze zu bilden. Im
-Allgemeinen ist es so, dass deutsche Wörter und Sätze statistisch länger
+Versuchung, Schachtelsätze oder allgemein sehr lange Sätze zu bilden. Auch hier
+ist eine KI-Vorübersetzung von Nutzen. Im Allgemeinen ist es aber so, 
+dass deutsche Wörter und Sätze im Mittel länger
 als ihre englischen Pendants sind. Daher sollte darauf geachtet werden,
 die deutsche Übersetzung nicht zu komplex oder zu lang werden zu lassen. Es
 kann durchaus guter Stil sein, einen Satz in zwei Sätze aufzuteilen, auch wenn
