@@ -95,19 +95,21 @@ die bessere Wahl. Insbesondere die direkte Ansprache mit
 &bdquo;Sie&rdquo; ist in diesem Teil der Dokumentation weit verbreitet und sollte
 so beibehalten werden.
 
-Beispiele:
+Beispiel 1:
 > :arrow_forward: The table of contents in the sidebar should let you easily 
 > access the documentation for your topic of interest.
 > 
 > :heavy_check_mark: Mithilfe des Inhaltsverzeichnisses in der Seitenleiste 
 > können Sie leicht auf die Dokumentation zu Ihrem gewünschten Thema zugreifen. 
- 
+  
+Beispiel 2:
 > :arrow_forward:  To move our icon, we need to update its position and rotation 
 > every frame in the game loop.
 > 
 > :heavy_check_mark: Um unser Icon zu bewegen, müssen wir seine Position und 
 > Drehung in jedem Frame der Spielschleife aktualisieren. 
-
+  
+Beispiel 3:
 > :arrow_forward: This build can be manually triggered by clicking the "Build" 
 > button at the top right of the editor.
 > 
@@ -118,10 +120,12 @@ Beispiele:
 Bei manchen Abschnitten der Anleitung, wie bestimmten Überschriften oder Aufzählungen,
 bietet sich der [Infinitiv-Imperativ](https://de.wikipedia.org/wiki/Imperativ_(Modus)#Infinitiv) an. 
 
+Beispiel 1:
 > :arrow_forward: Setting up the project
 > 
 > :heavy_check_mark: Das Projekt einrichten
 
+Beispiel 2:
 > :arrow_forward: For the player, we need to do the following:
 > * Check for input.
 > * Move in the given direction.
@@ -143,6 +147,7 @@ im Infinitiv-Imperativ (siehe Beispiele oben) zu übersetzen sind, da diese Form
 hier sprachlich gut passt und wenig Platz einnimmt. Auch sollten hier wo möglich, 
 Artikel weggelassen werden, was aber oft bereits im Original so gemacht wird.
 
+Beispiel:
 > :arrow_forward: Keep Screen On
 >
 > :x: Der Bildschirm wird eingeschaltet gelassen
@@ -170,6 +175,7 @@ Andere Begriffe haben gängige deutsche Übersetzungen, wie z.B. *Knoten* für *
 Da es in der Godot-Welt Objekte gibt, die feststehende Namen haben, 
 etwa `Node2D`, wollen wir davon abgeleitete Vokabeln ebenfalls englisch lassen.
 
+Beispiel:
 > :arrow_forward: This feature is only available when connecting nodes in the editor.
 > 
 > :x: Dieses Feature ist nur verfügbar, wenn Knoten im Editor verbunden werden.
@@ -409,6 +415,7 @@ Beispiel:
 Das Wort &bdquo;color&rdquo; ist ziemlich eindeutig und bedarf vermutlich keiner 
 expliziten Klärung in einem Glossar. 
 
+Beispiel:
 > :heavy_check_mark: ctrl -> Strg
  
 Hier haben wir einen Fachbegriff, der über ein eindeutiges 
@@ -416,6 +423,7 @@ deutsches Äquivalent verfügt. Hier kann man durch eine &bdquo;Forbidden
 Translation&rdquo; (s.u.) außerdem darauf hinweisen, dass eine Übersetzung als das 
 vielleicht naheliegende &bdquo;Ctrl&rdquo; nicht zulässig ist.
 
+Beispiel:
 > :heavy_check_mark: aligned -> bündig/ausgerichet
 
 In diesem Fall kann das Glossar dabei helfen, die verschiedenen 
@@ -423,6 +431,7 @@ In diesem Fall kann das Glossar dabei helfen, die verschiedenen
 *left-aligned* als *linksbündig* und in der Form *axis-aligned* als *an den 
 Achsen ausgerichtet* übersetzt werden sollte.
 
+Beispiel:
 > :heavy_check_mark: blitting -> Blitting
 
 Hier verweist das Glossar darauf, dass ein Begriff ein 
