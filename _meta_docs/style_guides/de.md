@@ -87,7 +87,7 @@ Folgende Grundregeln werden aktuell in der Übersetzung angewendet:
 
 #### Anleitung/Klassenreferenz
 
-In der Anleitung sollte die grammatikalische Form des Originaltexts beibehalten
+In der *Anleitung* sollte die grammatikalische Form des Originaltexts beibehalten
 werden, es sei denn, die Lesbarkeit leidet darunter. Es sollte generell darauf 
 verzichtet werden, an dieser Stelle bestimmte Sprachkonstrukte grundsätzlich
 zu vermeiden oder zu bevorzugen. Oft ist eine Anlehnung an den Originaltext
@@ -95,21 +95,19 @@ die bessere Wahl. Insbesondere die direkte Ansprache mit
 &bdquo;Sie&rdquo; ist in diesem Teil der Dokumentation weit verbreitet und sollte
 so beibehalten werden.
 
-Beispiel 1:
+Beispiele:
 > :arrow_forward: The table of contents in the sidebar should let you easily 
 > access the documentation for your topic of interest.
 > 
 > :heavy_check_mark: Mithilfe des Inhaltsverzeichnisses in der Seitenleiste 
 > können Sie leicht auf die Dokumentation zu Ihrem gewünschten Thema zugreifen. 
   
-Beispiel 2:
 > :arrow_forward:  To move our icon, we need to update its position and rotation 
 > every frame in the game loop.
 > 
 > :heavy_check_mark: Um unser Icon zu bewegen, müssen wir seine Position und 
 > Drehung in jedem Frame der Spielschleife aktualisieren. 
   
-Beispiel 3:
 > :arrow_forward: This build can be manually triggered by clicking the "Build" 
 > button at the top right of the editor.
 > 
@@ -157,7 +155,7 @@ Beispiel:
 
 #### Editor
 
-Die Texte des Editors bestehen sowohl aus kleinen Textblöcken, wenn z.B. ein Tooltip 
+Die Texte des *Editors* bestehen sowohl aus kleinen Textblöcken, wenn z.B. ein Tooltip 
 eine Einstellung näher beschreibt, als auch aus kurzen Begriffen, die oft wenig
 Platz zur Verfügung haben.
 
