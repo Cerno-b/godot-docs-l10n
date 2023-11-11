@@ -61,7 +61,7 @@ um die *gesamte* Anleitung umzustellen. Bis dahin sollte aus
 praktischen Gründen die Übersetzung beim formelleren &bdquo;Sie&rdquo; bleiben.
 
 Beispiel:
-> :us: You can also use the search function in the top-left corner.
+> :arrow_forward: You can also use the search function in the top-left corner.
 >
 > :x: Du kannst auch die Suchfunktion in der oberen linken Ecke verwenden.
 >
@@ -96,19 +96,19 @@ die bessere Wahl. Insbesondere die direkte Ansprache mit
 so beibehalten werden.
 
 Beispiele:
-> :us: The table of contents in the sidebar should let you easily 
+> :arrow_forward: The table of contents in the sidebar should let you easily 
 > access the documentation for your topic of interest.
 > 
 > :heavy_check_mark: Mithilfe des Inhaltsverzeichnisses in der Seitenleiste 
 > können Sie leicht auf die Dokumentation zu Ihrem gewünschten Thema zugreifen. 
  
-> :us:  To move our icon, we need to update its position and rotation 
+> :arrow_forward:  To move our icon, we need to update its position and rotation 
 > every frame in the game loop.
 > 
 > :heavy_check_mark: Um unser Icon zu bewegen, müssen wir seine Position und 
 > Drehung in jedem Frame der Spielschleife aktualisieren. 
 
-> :us: This build can be manually triggered by clicking the "Build" 
+> :arrow_forward: This build can be manually triggered by clicking the "Build" 
 > button at the top right of the editor.
 > 
 > :heavy_check_mark: Dieser Build kann manuell ausgelöst werden, indem man auf den
@@ -118,11 +118,11 @@ Beispiele:
 Bei manchen Abschnitten der Anleitung, wie bestimmten Überschriften oder Aufzählungen,
 bietet sich der [Infinitiv-Imperativ](https://de.wikipedia.org/wiki/Imperativ_(Modus)#Infinitiv) an. 
 
-> :us: Setting up the project
+> :arrow_forward: Setting up the project
 > 
 > :heavy_check_mark: Das Projekt einrichten
 
-> :us: For the player, we need to do the following:
+> :arrow_forward: For the player, we need to do the following:
 > * Check for input.
 > * Move in the given direction.
 > * Play the appropriate animation.
@@ -143,7 +143,7 @@ im Infinitiv-Imperativ (siehe Beispiele oben) zu übersetzen sind, da diese Form
 hier sprachlich gut passt und wenig Platz einnimmt. Auch sollten hier wo möglich, 
 Artikel weggelassen werden, was aber oft bereits im Original so gemacht wird.
 
-> :us: Keep Screen On
+> :arrow_forward: Keep Screen On
 >
 > :x: Der Bildschirm wird eingeschaltet gelassen
 > 
@@ -170,7 +170,7 @@ Andere Begriffe haben gängige deutsche Übersetzungen, wie z.B. *Knoten* für *
 Da es in der Godot-Welt Objekte gibt, die feststehende Namen haben, 
 etwa `Node2D`, wollen wir davon abgeleitete Vokabeln ebenfalls englisch lassen.
 
-> :us: This feature is only available when connecting nodes in the editor.
+> :arrow_forward: This feature is only available when connecting nodes in the editor.
 > 
 > :x: Dieses Feature ist nur verfügbar, wenn Knoten im Editor verbunden werden.
 > 
@@ -193,14 +193,14 @@ Sprache ist zu komplex, als dass es für jeden Fall eine vordefinierte
 Lösung gibt.
 
 Beispiel 1:
-> :us: Stereo Panning
+> :arrow_forward: Stereo Panning
 >
 > :x: Stereoverschiebung
 >
 > :heavy_check_mark: Stereo-Panning
 
 Beispiel 2:
-> :us: Drag to pan the view
+> :arrow_forward: Drag to pan the view
 >
 > :x: Ziehen, um den View zu pannen.
 >
@@ -239,7 +239,7 @@ aufzubrechen und ihn klar zu beschreiben. Dabei ist es notwenig,
 nachzulesen, was dieser Begriff im Kontext von Godot eigentlich genau bedeutet:
 
 Beispiel:
-> :us: Medium Quality Probe Ray Count
+> :arrow_forward: Medium Quality Probe Ray Count
 >
 > :x: Mittelqualitätsprobestrahlenanzahl
 >
@@ -253,7 +253,7 @@ sollten zumindest Bindestriche eingesetzt werden, um die Teilbegriffe klarer
 voneinander zu trennen.
 
 Beispiel 1:
-> :us: Interaction Profile Path
+> :arrow_forward: Interaction Profile Path
 >
 > :x: Interaktionsprofilpfad
 >
@@ -262,7 +262,7 @@ Beispiel 1:
 > :heavy_check_mark: Pfad zum Interaktionsprofil
 
 Beispiel 2:
-> :us: Render Target Size Multiplier
+> :arrow_forward: Render Target Size Multiplier
 >
 > :x: Renderzielgrößenfaktor
 >
@@ -286,7 +286,7 @@ die&rdquo; scheint oft naheliegend, klingt aber umständlich und ist keine gute 
 Stattdessen ist eine Umformulierung des Satzes oft die bessere Wahl.
 
 Beispiel 1:
-> :us: Min SDK cannot be lower than %d, which is the version
+> :arrow_forward: Min SDK cannot be lower than %d, which is the version
 > needed by the Godot library.
 >
 > :x: Min SDK kann nicht niedriger als %d sein, der Version, die die
@@ -296,7 +296,7 @@ Beispiel 1:
 > Version, die von der Godot-Bibliothek benötigt wird).
 
 Beispiel 2:
-> :us: In addition, one will need a primary GUI for their game that
+> :arrow_forward: In addition, one will need a primary GUI for their game that
 > manages the various menus and widgets the project needs.
 >
 > :x: Außerdem benötigt man für sein Spiel eine primäre GUI, die die
@@ -319,7 +319,7 @@ Wir sollten uns auf Weblate in erster Linie als Übersetzer und nicht als
 Autoren verstehen.
 
 Beispiel:
-> :us:: Computes the arctan of x
+> :arrow_forward:: Computes the arctan of x
 >
 > :x: Berechnet den Arcustangens von x. Der Arcustangens ist die Umkehrfunktion
 > des Tangens.
