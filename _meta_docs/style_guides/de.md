@@ -61,7 +61,7 @@ um die *gesamte* Anleitung umzustellen. Bis dahin sollte aus
 praktischen Gründen die Übersetzung beim formelleren &bdquo;Sie&rdquo; bleiben.
 
 Beispiel:
-> **Original:** You can also use the search function in the top-left corner.
+> :us: You can also use the search function in the top-left corner.
 >
 > :x: Du kannst auch die Suchfunktion in der oberen linken Ecke verwenden.
 >
@@ -96,33 +96,33 @@ die bessere Wahl. Insbesondere die direkte Ansprache mit
 so beibehalten werden.
 
 Beispiele:
-> **Original:** The table of contents in the sidebar should let you easily 
+> :us: The table of contents in the sidebar should let you easily 
 > access the documentation for your topic of interest.
 > 
 > :heavy_check_mark: Mithilfe des Inhaltsverzeichnisses in der Seitenleiste 
 > können Sie leicht auf die Dokumentation zu Ihrem gewünschten Thema zugreifen. 
  
-> **Original:**  To move our icon, we need to update its position and rotation 
+> :us:  To move our icon, we need to update its position and rotation 
 > every frame in the game loop.
 > 
 > :heavy_check_mark: Um unser Icon zu bewegen, müssen wir seine Position und 
 > Drehung in jedem Frame der Spielschleife aktualisieren. 
 
-> **Original:** This build can be manually triggered by clicking the "Build" 
+> :us: This build can be manually triggered by clicking the "Build" 
 > button at the top right of the editor.
 > 
-> > :heavy_check_mark: Dieser Build kann manuell ausgelöst werden, indem man auf den
+> :heavy_check_mark: Dieser Build kann manuell ausgelöst werden, indem man auf den
 > &bdquo;Build&rdquo;-Button oben rechts im Editor klickt.
 
 
 Bei manchen Abschnitten der Anleitung, wie bestimmten Überschriften oder Aufzählungen,
 bietet sich der [Infinitiv-Imperativ](https://de.wikipedia.org/wiki/Imperativ_(Modus)#Infinitiv) an. 
 
-> **Original:** Setting up the project
+> :us: Setting up the project
 > 
 > :heavy_check_mark: Das Projekt einrichten
 
-> **Original:** For the player, we need to do the following:
+> :us: For the player, we need to do the following:
 > * Check for input.
 > * Move in the given direction.
 > * Play the appropriate animation.
@@ -143,7 +143,7 @@ im Infinitiv-Imperativ (siehe Beispiele oben) zu übersetzen sind, da diese Form
 hier sprachlich gut passt und wenig Platz einnimmt. Auch sollten hier wo möglich, 
 Artikel weggelassen werden, was aber oft bereits im Original so gemacht wird.
 
-> **Original** Keep Screen On
+> :us: Keep Screen On
 >
 > :x: Der Bildschirm wird eingeschaltet gelassen
 > 
@@ -170,7 +170,7 @@ Andere Begriffe haben gängige deutsche Übersetzungen, wie z.B. *Knoten* für *
 Da es in der Godot-Welt Objekte gibt, die feststehende Namen haben, 
 etwa `Node2D`, wollen wir davon abgeleitete Vokabeln ebenfalls englisch lassen.
 
-> **Original:** This feature is only available when connecting nodes in the editor.
+> :us: This feature is only available when connecting nodes in the editor.
 > 
 > :x: Dieses Feature ist nur verfügbar, wenn Knoten im Editor verbunden werden.
 > 
@@ -193,14 +193,14 @@ Sprache ist zu komplex, als dass es für jeden Fall eine vordefinierte
 Lösung gibt.
 
 Beispiel 1:
-> **Original:** Stereo Panning
+> :us: Stereo Panning
 >
 > :x: Stereoverschiebung
 >
 > :heavy_check_mark: Stereo-Panning
 
 Beispiel 2:
-> **Original:** Drag to pan the view
+> :us: Drag to pan the view
 >
 > :x: Ziehen, um den View zu pannen.
 >
@@ -239,7 +239,7 @@ aufzubrechen und ihn klar zu beschreiben. Dabei ist es notwenig,
 nachzulesen, was dieser Begriff im Kontext von Godot eigentlich genau bedeutet:
 
 Beispiel:
-> **Original:** Medium Quality Probe Ray Count
+> :us: Medium Quality Probe Ray Count
 >
 > :x: Mittelqualitätsprobestrahlenanzahl
 >
@@ -253,7 +253,7 @@ sollten zumindest Bindestriche eingesetzt werden, um die Teilbegriffe klarer
 voneinander zu trennen.
 
 Beispiel 1:
-> **Original:** Interaction Profile Path
+> :us: Interaction Profile Path
 >
 > :x: Interaktionsprofilpfad
 >
@@ -262,7 +262,7 @@ Beispiel 1:
 > :heavy_check_mark: Pfad zum Interaktionsprofil
 
 Beispiel 2:
-> **Original:** Render Target Size Multiplier
+> :us: Render Target Size Multiplier
 >
 > :x: Renderzielgrößenfaktor
 >
@@ -286,7 +286,7 @@ die&rdquo; scheint oft naheliegend, klingt aber umständlich und ist keine gute 
 Stattdessen ist eine Umformulierung des Satzes oft die bessere Wahl.
 
 Beispiel 1:
-> **Original:** Min SDK cannot be lower than %d, which is the version
+> :us: Min SDK cannot be lower than %d, which is the version
 > needed by the Godot library.
 >
 > :x: Min SDK kann nicht niedriger als %d sein, der Version, die die
@@ -296,7 +296,7 @@ Beispiel 1:
 > Version, die von der Godot-Bibliothek benötigt wird).
 
 Beispiel 2:
-> **Original:** In addition, one will need a primary GUI for their game that
+> :us: In addition, one will need a primary GUI for their game that
 > manages the various menus and widgets the project needs.
 >
 > :x: Außerdem benötigt man für sein Spiel eine primäre GUI, die die
@@ -319,7 +319,7 @@ Wir sollten uns auf Weblate in erster Linie als Übersetzer und nicht als
 Autoren verstehen.
 
 Beispiel:
-> **Original**: Computes the arctan of x
+> :us:: Computes the arctan of x
 >
 > :x: Berechnet den Arcustangens von x. Der Arcustangens ist die Umkehrfunktion
 > des Tangens.
