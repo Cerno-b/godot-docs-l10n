@@ -61,6 +61,7 @@ um die *gesamte* Anleitung umzustellen. Bis dahin sollte aus
 praktischen Gründen die Übersetzung beim formelleren &bdquo;Sie&rdquo; bleiben.
 
 Beispiel:
+
 > :arrow_forward: You can also use the search function in the top-left corner.
 >
 > :x: Du kannst auch die Suchfunktion in der oberen linken Ecke verwenden.
@@ -96,13 +97,14 @@ die bessere Wahl. Insbesondere die direkte Ansprache mit
 so beibehalten werden.
 
 Beispiele:
+
 > :arrow_forward: The table of contents in the sidebar should let you easily 
 > access the documentation for your topic of interest.
 > 
 > :heavy_check_mark: Mithilfe des Inhaltsverzeichnisses in der Seitenleiste 
 > können Sie leicht auf die Dokumentation zu Ihrem gewünschten Thema zugreifen. 
 
-<br/><br/>
+<br/>
 
 > :arrow_forward:  To move our icon, we need to update its position and rotation 
 > every frame in the game loop.
@@ -110,7 +112,7 @@ Beispiele:
 > :heavy_check_mark: Um unser Icon zu bewegen, müssen wir seine Position und 
 > Drehung in jedem Frame der Spielschleife aktualisieren. 
 
-<br/><br/>
+<br/>
   
 > :arrow_forward: This build can be manually triggered by clicking the "Build" 
 > button at the top right of the editor.
@@ -122,12 +124,14 @@ Beispiele:
 Bei manchen Abschnitten der Anleitung, wie bestimmten Überschriften oder Aufzählungen,
 bietet sich der [Infinitiv-Imperativ](https://de.wikipedia.org/wiki/Imperativ_(Modus)#Infinitiv) an: 
 
-Beispiel 1:
+Beispiele:
+
 > :arrow_forward: Setting up the project
 > 
 > :heavy_check_mark: Das Projekt einrichten
 
-Beispiel 2:
+<br/>
+
 > :arrow_forward: For the player, we need to do the following:
 > * Check for input.
 > * Move in the given direction.
@@ -151,6 +155,7 @@ hier sprachlich gut passt und wenig Platz einnimmt. Auch sollten hier wo möglic
 Artikel weggelassen werden, was aber oft bereits im Original so gemacht wird.
 
 Beispiel:
+
 > :arrow_forward: Keep Screen On
 >
 > :x: Der Bildschirm wird eingeschaltet gelassen
@@ -179,6 +184,7 @@ Da es in der Godot-Welt Objekte gibt, die feststehende Namen haben,
 etwa `Node2D`, wollen wir davon abgeleitete Vokabeln ebenfalls englisch lassen.
 
 Beispiel:
+
 > :arrow_forward: This feature is only available when connecting nodes in the editor.
 > 
 > :x: Dieses Feature ist nur verfügbar, wenn Knoten im Editor verbunden werden.
@@ -202,6 +208,7 @@ Sprache ist zu komplex, als dass es für jeden Fall eine vordefinierte
 Lösung gibt.
 
 Beispiel 1:
+
 > :arrow_forward: Stereo Panning
 >
 > :x: Stereoverschiebung
@@ -209,6 +216,7 @@ Beispiel 1:
 > :heavy_check_mark: Stereo-Panning
 
 Beispiel 2:
+
 > :arrow_forward: Drag to pan the view
 >
 > :x: Ziehen, um den View zu pannen.
@@ -248,6 +256,7 @@ aufzubrechen und ihn klar zu beschreiben. Dabei ist es notwenig,
 nachzulesen, was dieser Begriff im Kontext von Godot eigentlich genau bedeutet:
 
 Beispiel:
+
 > :arrow_forward: Medium Quality Probe Ray Count
 >
 > :x: Mittelqualitätsprobestrahlenanzahl
@@ -261,7 +270,8 @@ Sollte sich keine brauchbare Übersetzung eines Kompositums finden, dann
 sollten zumindest Bindestriche eingesetzt werden, um die Teilbegriffe klarer
 voneinander zu trennen.
 
-Beispiel 1:
+Beispiele:
+
 > :arrow_forward: Interaction Profile Path
 >
 > :x: Interaktionsprofilpfad
@@ -270,7 +280,8 @@ Beispiel 1:
 >
 > :heavy_check_mark: Pfad zum Interaktionsprofil
 
-Beispiel 2:
+<br/>
+
 > :arrow_forward: Render Target Size Multiplier
 >
 > :x: Renderzielgrößenfaktor
@@ -294,7 +305,8 @@ Ein weiterer verwandter Aspekt ist hier die Verwendung der Wortwiederholung
 die&rdquo; scheint oft naheliegend, klingt aber umständlich und ist keine gute Lösung.
 Stattdessen ist eine Umformulierung des Satzes oft die bessere Wahl.
 
-Beispiel 1:
+Beispiele:
+
 > :arrow_forward: Min SDK cannot be lower than %d, which is the version
 > needed by the Godot library.
 >
@@ -304,7 +316,8 @@ Beispiel 1:
 > :heavy_check_mark: Min SDK kann nicht niedriger als %d sein (die
 > Version, die von der Godot-Bibliothek benötigt wird).
 
-Beispiel 2:
+<br/>
+
 > :arrow_forward: In addition, one will need a primary GUI for their game that
 > manages the various menus and widgets the project needs.
 >
@@ -328,6 +341,7 @@ Wir sollten uns auf Weblate in erster Linie als Übersetzer und nicht als
 Autoren verstehen.
 
 Beispiel:
+
 > :arrow_forward:: Computes the arctan of x
 >
 > :x: Berechnet den Arcustangens von x. Der Arcustangens ist die Umkehrfunktion
@@ -413,12 +427,14 @@ allerdings auch, dass ein sehr großes Glossar Pflegeaufwand bedeutet. Nicht
 jedes Wort muss also unbedingt einen Eintrag bekommen.
 
 Beispiel:
+
 > :x: color -> Farbe
 
 Das Wort &bdquo;color&rdquo; ist ziemlich eindeutig und bedarf vermutlich keiner 
 expliziten Klärung in einem Glossar. 
 
 Beispiel:
+
 > :heavy_check_mark: ctrl -> Strg
  
 Hier haben wir einen Fachbegriff, der über ein eindeutiges 
@@ -427,6 +443,7 @@ Translation&rdquo; (s.u.) außerdem darauf hinweisen, dass eine Übersetzung als
 vielleicht naheliegende &bdquo;Ctrl&rdquo; nicht zulässig ist.
 
 Beispiel:
+
 > :heavy_check_mark: aligned -> bündig/ausgerichet
 
 In diesem Fall kann das Glossar dabei helfen, die verschiedenen 
@@ -435,6 +452,7 @@ In diesem Fall kann das Glossar dabei helfen, die verschiedenen
 Achsen ausgerichtet* übersetzt werden sollte.
 
 Beispiel:
+
 > :heavy_check_mark: blitting -> Blitting
 
 Hier verweist das Glossar darauf, dass ein Begriff ein 
@@ -450,6 +468,7 @@ gelingen, wenn ein Eintrag in der englischen Form genau so auch in einem
 Text vorkommen kann.
 
 Beispiel:
+
 > :x: float, floats
 >
 > :heavy_check_mark: float
@@ -466,6 +485,7 @@ Dies hilft bei der Lesbarkeit und macht es später leichter, weitere Bedeutungen
 hinzuzufügen.
 
 Beispiel:
+
 > :x: Volumen, Lautstärke
 >
 > :heavy_check_mark: Volumen (*Translation Explanation:* im Sinne von &bdquo;Rauminhalt&rdquo;)
@@ -483,12 +503,14 @@ Glossar eingetragen werden, damit es in möglichst vielen Fällen automatisch
 zugeordnet werden kann. Das bedeutet bei Verben die Grundform (**wichtig:** ohne *to*) 
 und bei Substantiven der Singular.
 
-Beispiel 1:
+Beispiele:
+
 > :x: to hide -> verbergen
 > 
 > :heavy_check_mark: hide -> verbergen
 
-Beispiel 2:
+<br/>
+
 > :x: constants -> Konstanten
 > 
 > :heavy_check_mark: constant -> Konstante
