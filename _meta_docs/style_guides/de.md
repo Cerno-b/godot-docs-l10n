@@ -151,8 +151,8 @@ Vokabel besteht (dazu mehr unten), als in der grammatikalischen Form.
 
 Manchmal sind es jedoch kurze Sätze, die in den meisten Fällen am besten
 im Infinitiv-Imperativ (siehe Beispiele oben) zu übersetzen sind, da diese Form 
-hier sprachlich gut passt und wenig Platz einnimmt. Auch sollten hier wo möglich, 
-Artikel weggelassen werden, was aber oft bereits im Original so gemacht wird.
+hier sprachlich gut passt und wenig Platz einnimmt. Auch sollten hier, wo möglich, 
+Artikel weggelassen werden, genauso wie es im Original meist schon gemacht wird.
 
 Beispiel:
 
