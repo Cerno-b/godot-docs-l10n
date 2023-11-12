@@ -177,7 +177,7 @@ Form in den Sprachgebrauch Einzug gefunden haben (*Thread*, *Debuggen*,
 *Spawn-Punkt*).
 
 Andere Begriffe haben gängige deutsche Übersetzungen, wie z.B. *Knoten* für *node*. 
-Da es in der Godot-Welt Objekte gibt, die feststehende Namen haben, 
+Da es in der Godot-Welt aber Objekte gibt, die feststehende Namen haben, 
 etwa `Node2D`, wollen wir davon abgeleitete Vokabeln ebenfalls englisch lassen.
 
 > :arrow_forward: This feature is only available when connecting nodes in the editor.
@@ -456,9 +456,9 @@ Text vorkommen kann.
 >
 > :heavy_check_mark: float -> float
 
-Im vorigen Beispiel könnte Weblate den Glossareintrag das Wort nicht 
-finden, da der Begriff *float, floats* so im Originaltext nicht vorkommen wird,
-wenn dort lediglich der Begriff *float* beschrieben wird.
+Im vorigen Beispiel könnte Weblate für einen Text, der den *Float*-Datentyp
+erklärt, den Glossareintrag nicht finden, da der Begriff *float, floats* so 
+im Originaltext nicht vorkommt.
 
 ### Ein Wort, mehrere Bedeutungen
 
@@ -476,7 +476,12 @@ hinzuzufügen.
 Es bietet sich an, über das jeweilige &bdquo;Translation Explanation&rdquo;-Feld 
 zu beschreiben, wie sich 
 die verschiedenen Übersetzungen unterscheiden und in welchen Fällen man sie 
-verwenden sollte.
+verwenden sollte. 
+
+**Achtung:** Es gibt auch das Feld 
+&bdquo;Explanation&rdquo;, das für die Erklärung des Originaltextes gedacht
+ist. Dieses Feld sollte nicht verwendet werden, da es in der Seitenleiste
+zu unschönen Doppeleinträgen führen kann.
 
 ### Grundformen verwenden
 
