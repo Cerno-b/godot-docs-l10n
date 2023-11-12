@@ -534,7 +534,7 @@ Ein als &bdquo;Untranslatable&rdquo; markierter Eintrag ist ein Begriff, der bew
 Allerdings haben viele dieser Begriffe eigentlich nichts im Glossar verloren,
 sodass dieses Flag nicht allzu häufig vorkommen sollte. 
 Man kann einen als &bdquo;Untranslatable&rdquo; markierten Begriff daran 
-erkennen, dass er bei der Glossar-Einblendung gelb hinterlegt ist.
+erkennen, dass er bei der Glossar-Einblendung in der Seitenleiste gelb hinterlegt ist.
 
 ### Forbidden Translation
 
