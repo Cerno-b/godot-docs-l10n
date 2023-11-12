@@ -219,7 +219,7 @@ Beispiel 2:
 > :heavy_check_mark: Ziehen um den View zu verschieben
 
 
-Das Erste Beispiel stammt aus dem Audio-Bereich, wo Stereo-Panning ein gängiger
+Das erste Beispiel stammt aus dem Audio-Bereich, wo Stereo-Panning ein gängiger
 Begriff ist. Das zweite Beispiel verwendet das Wort &bdquo;panning&rdquo; als 
 allgemeine Vokabel. Hier ist kein besonderer technischer Jargon
 gemeint, somit kann das Wort auch normal auf Deutsch übersetzt werden.
@@ -234,7 +234,7 @@ noch in der bestehenden Dokumentation auffindbar sein.
 
 ### Kompositionswörter
 
-Das im deutschen übliche Aneinanderreihen von Wörtern (Komposition) wird
+Das im Deutschen übliche Aneinanderreihen von Wörtern (Komposition) wird
 im Englischen durch das Hintereinandersetzen von Wörtern mit
 Leerzeichen erreicht. Bei sehr langen Wortfolgen ergeben sich dabei
 logische Untergruppen aus dem Zusammenhang, auch wenn das in Extremfällen
@@ -247,7 +247,7 @@ da die Lesbarkeit extrem leidet, wenn die Wörter sehr lang werden. Eine
 einfache Lösung ist hier, mithilfe von Bindestrichen Klarheit zu schaffen.
 Allerdings ist es im Allgemeinen besser, die grammatikalische Struktur des
 Begriffs
-aufzubrechen und ihn klar zu beschreiben. Dabei ist es notwenig,
+aufzubrechen und ihn klar zu beschreiben. Dabei ist es notwendig,
 nachzulesen, was dieser Begriff im Kontext von Godot eigentlich genau bedeutet:
 
 > :arrow_forward: Medium Quality Probe Ray Count
