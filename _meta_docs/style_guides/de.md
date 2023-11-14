@@ -47,6 +47,10 @@ Hier ist ein empfohlener Workflow für die Übersetzung eines Textblocks:
 * Text auf Abweichungen zum Glossar prüfen und ggf. korrigieren
 * Eigene Änderungen vornehmen, wo sinnvoll
 
+Es ist zudem ratsam, Korrekturen direkt auf der rechten Seite von DeepL vorzunehmen,
+da das Tool bei wiederholten Korrekturen dazulernen kann. Begriffe, die
+hartnäckig falsch übersetzt werden, kann man zudem ins DeepL-Glossar eintragen
+und damit eine bestimmte Übersetzung erzwingen.
 
 ## Stilregeln
 
